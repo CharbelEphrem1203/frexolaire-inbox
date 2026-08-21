@@ -1,0 +1,10 @@
+{
+  "slug": "test-pont-github-ne-pas-publier",
+  "title": "Test du pont GitHub (brouillon technique)",
+  "status": "draft",
+  "rank_math_title": "Test technique du pont de publication",
+  "rank_math_description": "Fichier de validation du pont GitHub vers WordPress. Ce brouillon technique sera supprimé après vérification du bon fonctionnement de la chaîne complète.",
+  "focus_keyword": "test",
+  "image_query": "panneau solaire",
+  "content_html": "<p>Brouillon de validation du pont GitHub → WordPress. Si vous lisez ceci dans les brouillons du site, la chaîne fonctionne : lecture du dépôt, import, métadonnées Rank Math et image à la une. Ce contenu dépasse les quatre cents caractères requis par le garde-fou de longueur minimale pour rester dans le statut demandé, à savoir brouillon, sans déclencher ni publication ni purge de caches. Il sera mis à la corbeille immédiatement après le test de bout en bout, et le fichier source sera retiré de la boîte de dépôt GitHub pour laisser un dépôt propre, ne conservant que le gabarit d'exemple et le référentiel des articles déjà publiés.</p>"
+}
