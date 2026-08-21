@@ -1,0 +1,10 @@
+{
+  "slug": "exemple-sujet-2026",
+  "title": "Titre H1 avec le mot-clé (max 60 caractères)",
+  "status": "publish",
+  "rank_math_title": "Titre SEO ≤ 60 caractères avec mot-clé + année",
+  "rank_math_description": "Description 150-158 caractères avec un chiffre et un bénéfice concret pour le lecteur, se terminant proprement.",
+  "focus_keyword": "mot-clé principal",
+  "image_query": "panneau solaire toiture",
+  "content_html": "<p>Introduction directe…</p><h2>Section 1</h2><p>…</p><h2>FAQ</h2><h3>Question 1 ?</h3><p>Réponse…</p>"
+}
