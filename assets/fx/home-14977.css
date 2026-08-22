@@ -916,3 +916,4 @@ body.page-id-14977 .ast-container{max-width:100%;width:100%;padding-left:0;paddi
 
 /* 22/08/2026 : boutons d'une meme rangee = meme largeur (demande client) - seul groupe inegal du site : hero accueil */
 .fxr .hero-ctas .btn{min-width:min(310px,100%);justify-content:center}
+/* pont-css : test E2E 22/08/2026 */
