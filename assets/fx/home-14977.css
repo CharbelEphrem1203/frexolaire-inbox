@@ -1,0 +1,918 @@
+
+.fxr{--g:#025048;--g2:#137c6b;--gd:#0a3f35;--g9:#01332e;--ink:#3d4852;--mist:#F1F4F1;--line:#e2e8f0;--paper:#fff;--glow:rgba(255,236,190,.16);font-family:'Plus Jakarta Sans',sans-serif;color:var(--ink);line-height:1.65;margin:0;overflow-x:clip}
+.fxr *,.fxr *:before,.fxr *:after{box-sizing:border-box}
+.fxr img{max-width:100%;display:block}
+.fxr .wrap{max-width:1200px;margin:0 auto;padding:0 24px}
+.fxr .eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:.78rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--g2)}
+.fxr .eyebrow:before{content:"";width:34px;height:2px;background:var(--g2)}
+.fxr h2.sec{font-size:clamp(1.9rem,3.4vw,2.8rem);font-weight:800;line-height:1.15;color:var(--g9);margin:.5rem 0 1rem;letter-spacing:-.02em}
+.fxr .rv{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s cubic-bezier(.16,1,.3,1)}
+.fxr .rv.on{opacity:1;transform:none}
+.fxr .btn{display:inline-flex;align-items:center;gap:10px;font-weight:700;font-size:1rem;padding:16px 30px;border-radius:999px;text-decoration:none;transition:transform .25s,box-shadow .25s,background .25s;cursor:pointer}
+.fxr .btn .ar{transition:transform .25s}
+.fxr .btn:hover .ar{transform:translateX(5px)}
+.fxr .btn-light{background:#fff;color:var(--g9)}
+.fxr .btn-light:hover{transform:translateY(-3px);box-shadow:0 14px 34px rgba(0,0,0,.28)}
+.fxr .btn-ghost{border:1.5px solid rgba(255,255,255,.55);color:#fff}
+.fxr .btn-ghost:hover{background:rgba(255,255,255,.12);transform:translateY(-3px)}
+.fxr .btn-green{background:var(--g);color:#fff}
+.fxr .btn-green:hover{background:var(--gd);transform:translateY(-3px);box-shadow:0 14px 30px rgba(2,80,72,.35)}
+/* HERO */
+.fxr .hero{position:relative;background:linear-gradient(158deg,var(--g9) 0%,var(--g) 55%,var(--gd) 100%);color:#fff;padding:96px 0 0;overflow:hidden}
+.fxr .hero:before{content:"";position:absolute;top:-220px;right:-160px;width:640px;height:640px;border-radius:50%;background:radial-gradient(circle,var(--glow),transparent 62%);animation:fxrPulse 9s ease-in-out infinite}
+@keyframes fxrPulse{0%,100%{opacity:.75;transform:scale(1)}50%{opacity:1;transform:scale(1.12)}}
+.fxr .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center;position:relative}
+.fxr .hero .eyebrow{color:#bfe3d6}.fxr .hero .eyebrow:before{background:#bfe3d6}
+.fxr .hero h1{font-size:clamp(2.4rem,4.6vw,4rem);font-weight:800;line-height:1.08;letter-spacing:-.025em;margin:.9rem 0 1.2rem}
+.fxr .hero h1 em{font-style:normal;background:linear-gradient(90deg,#9fe8cf,#fff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.fxr .hero p.lead{font-size:1.13rem;color:#d9ece5;max-width:34rem;margin:0 0 2rem}
+.fxr .hero-ctas{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:2.6rem}
+.fxr .hero-img{position:relative}
+.fxr .hero-img img{border-radius:22px;box-shadow:0 30px 70px rgba(0,0,0,.45);transform:rotate(1.2deg);transition:transform .5s}
+.fxr .hero-img:hover img{transform:rotate(0) scale(1.015)}
+.fxr .hero-img .chip{position:absolute;left:-18px;bottom:26px;background:#fff;color:var(--g9);border-radius:14px;padding:12px 18px;font-weight:700;font-size:.9rem;box-shadow:0 16px 38px rgba(0,0,0,.3);display:flex;gap:8px;align-items:center}
+.fxr .badges{border-top:1px solid rgba(255,255,255,.16);margin-top:0;padding:18px 0;position:relative}
+.fxr .badges .wrap{display:flex;flex-wrap:wrap;gap:10px 34px;justify-content:center;font-size:.88rem;color:#cfe6dd;font-weight:600}
+.fxr .badges span{display:inline-flex;gap:8px;align-items:center}
+.fxr .badges svg{flex:none}
+/* TICKER */
+.fxr .tick{background:var(--g9);color:#8fd8bf;overflow:hidden;padding:12px 0;border-top:1px solid rgba(255,255,255,.06)}
+.fxr .tick-in{display:flex;gap:56px;white-space:nowrap;animation:fxrTick 26s linear infinite;width:max-content}
+.fxr .tick:hover .tick-in{animation-play-state:paused}
+@keyframes fxrTick{to{transform:translateX(-50%)}}
+.fxr .tick b{font-weight:700;color:#fff}
+/* STATS */
+.fxr .stats{background:var(--mist);padding:70px 0}
+.fxr .stats .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;text-align:center}
+.fxr .stat b{display:block;font-size:clamp(2.6rem,4.4vw,4rem);font-weight:800;color:var(--g);letter-spacing:-.03em;line-height:1}
+.fxr .stat small{display:block;margin-top:10px;font-size:.92rem;color:var(--ink);font-weight:500}
+/* SECTIONS */
+.fxr section.pad{padding:92px 0}
+/* TABS */
+.fxr .tabbar{display:flex;gap:10px;flex-wrap:wrap;margin:26px 0 34px}
+.fxr .tabbar button{font-family:inherit;font-size:.95rem;font-weight:700;padding:12px 24px;border-radius:999px;border:1.5px solid var(--line);background:#fff;color:var(--ink);cursor:pointer;transition:all .25s}
+.fxr .tabbar button.on,.fxr .tabbar button:hover{background:var(--g);border-color:var(--g);color:#fff}
+.fxr .tabpane{display:none;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.fxr .tabpane.on{display:grid;animation:fxrIn .5s ease}
+@keyframes fxrIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.fxr .tabpane img{border-radius:20px;box-shadow:0 22px 48px rgba(2,80,72,.18);aspect-ratio:4/3;object-fit:cover;width:100%}
+.fxr .tabpane h3{font-size:1.55rem;font-weight:800;color:var(--g9);margin:0 0 .8rem}
+.fxr .ck{list-style:none;padding:0;margin:0 0 1.6rem}
+.fxr .ck li{padding:7px 0 7px 34px;position:relative}
+.fxr .ck li:before{content:"";position:absolute;left:0;top:11px;width:20px;height:20px;border-radius:50%;background:var(--g2);-webkit-mask:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="black" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm-1.2 14.5-4-4 1.4-1.4 2.6 2.6 5.6-5.6 1.4 1.4-7 7z"/></svg>') center/contain no-repeat;mask:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="black" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm-1.2 14.5-4-4 1.4-1.4 2.6 2.6 5.6-5.6 1.4 1.4-7 7z"/></svg>') center/contain no-repeat}
+/* AIDES */
+.fxr .aides{background:linear-gradient(150deg,var(--gd),var(--g) 70%);color:#fff;position:relative;overflow:hidden}
+.fxr .aides:before{content:"";position:absolute;bottom:-260px;left:-140px;width:560px;height:560px;border-radius:50%;background:radial-gradient(circle,var(--glow),transparent 60%)}
+.fxr .aides .eyebrow{color:#9fe0cb}.fxr .aides .eyebrow:before{background:#9fe0cb}
+.fxr .aides h2.sec{color:#fff}
+.fxr .cards3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:38px;position:relative}
+.fxr .gcard{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);border-radius:18px;padding:30px 26px;backdrop-filter:blur(6px);transition:transform .3s,border-color .3s,background .3s}
+.fxr .gcard:hover{transform:translateY(-7px);border-color:rgba(255,255,255,.38);background:rgba(255,255,255,.1)}
+.fxr .gcard h3{font-size:1.16rem;font-weight:800;margin:14px 0 10px;color:#fff}
+.fxr .gcard p{font-size:.94rem;color:#d5eae2;margin:0}
+.fxr .gcard .ic{width:46px;height:46px;border-radius:12px;background:rgba(255,255,255,.14);display:flex;align-items:center;justify-content:center}
+.fxr .aides .note{margin-top:26px;font-size:.82rem;color:#b9d9cf}
+/* PROCESS */
+.fxr .proc{background:#fff}
+.fxr .steps{display:grid;grid-template-columns:repeat(5,1fr);gap:18px;margin-top:44px;counter-reset:st}
+.fxr .step{position:relative;background:var(--mist);border-radius:16px;padding:58px 20px 24px;transition:transform .3s,box-shadow .3s}
+.fxr .step:hover{transform:translateY(-6px);box-shadow:0 18px 36px rgba(2,80,72,.14)}
+.fxr .step i{position:absolute;top:6px;right:14px;font-style:normal;font-size:3.4rem;font-weight:800;color:transparent;-webkit-text-stroke:1.5px rgba(2,80,72,.22);line-height:1}
+.fxr .step h4{margin:0 0 6px;font-size:1rem;font-weight:800;color:var(--g9)}
+.fxr .step p{margin:0;font-size:.86rem}
+/* SHOP */
+.fxr .shop{background:var(--mist)}
+.fxr .kits{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:40px}
+.fxr .kit{background:#fff;border-radius:18px;overflow:hidden;border:1px solid var(--line);transition:transform .3s,box-shadow .3s;display:flex;flex-direction:column}
+.fxr .kit:hover{transform:translateY(-7px);box-shadow:0 22px 44px rgba(2,80,72,.16)}
+.fxr .kit .ph{background:#fff;padding:18px;height:230px;display:flex;align-items:center;justify-content:center}
+.fxr .kit .ph img{max-height:100%;object-fit:contain;transition:transform .4s}
+.fxr .kit:hover .ph img{transform:scale(1.06)}
+.fxr .kit .bd{padding:22px 24px 26px;display:flex;flex-direction:column;gap:8px;flex:1}
+.fxr .kit h3{margin:0;font-size:1.08rem;font-weight:800;color:var(--g9)}
+.fxr .kit p{margin:0;font-size:.9rem;flex:1}
+.fxr .kit a{color:var(--g);font-weight:700;text-decoration:none;display:inline-flex;gap:8px;align-items:center}
+.fxr .cats{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:34px}
+
+.fxr .cat img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.fxr .cat:hover img{transform:scale(1.08)}
+
+/* WHY */
+.fxr .why .cards4{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-top:40px}
+.fxr .wcard{background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden;transition:transform .3s,box-shadow .3s}
+.fxr .wcard:hover{transform:translateY(-6px);box-shadow:0 20px 40px rgba(2,80,72,.14)}
+.fxr .wcard img{height:150px;width:100%;object-fit:cover}
+.fxr .wcard .bd{padding:20px 20px 24px}
+.fxr .wcard h3{margin:0 0 8px;font-size:1rem;font-weight:800;color:var(--g9)}
+.fxr .wcard p{margin:0;font-size:.86rem}
+/* ZONES */
+.fxr .zones{background:linear-gradient(140deg,var(--g),var(--gd));color:#fff;text-align:center}
+.fxr .zones h2.sec{color:#fff}
+.fxr .zones .eyebrow{color:#9fe0cb;justify-content:center}.fxr .zones .eyebrow:before{background:#9fe0cb}
+.fxr .deps{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin:34px 0 18px}
+.fxr .dep{border:1.5px solid rgba(255,255,255,.4);border-radius:999px;padding:10px 20px;font-weight:700;font-size:.92rem;transition:background .25s,transform .25s;cursor:default}
+.fxr .dep:hover{background:#fff;color:var(--g9);transform:translateY(-3px)}
+.fxr .zones p.sub{color:#cfe6dd;font-size:.95rem}
+/* FAQ : style unifie site-wide dans style#fx-faq-uni (06/08/2026) */
+/* CTA */
+.fxr .cta{background:linear-gradient(150deg,var(--g9),var(--g));color:#fff;text-align:center;position:relative;overflow:hidden}
+.fxr .cta:before{content:"";position:absolute;top:-200px;left:50%;transform:translateX(-50%);width:700px;height:700px;border-radius:50%;background:radial-gradient(circle,var(--glow),transparent 60%)}
+.fxr .cta h2{font-size:clamp(2rem,3.6vw,3rem);font-weight:800;letter-spacing:-.02em;margin:0 0 14px;position:relative}
+.fxr .cta p{color:#d9ece5;margin:0 0 30px;position:relative}
+.fxr .cta .row{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;position:relative}
+.fxr .cta .tel{color:#fff;font-weight:800;font-size:1.15rem;text-decoration:none;display:inline-flex;align-items:center;gap:10px;padding:16px 10px}
+
+
+
+@media(prefers-reduced-motion:reduce){.fxr *,.fxr *:before{animation:none!important;transition:none!important}.fxr .rv{opacity:1;transform:none}}
+@media(max-width:1024px){.fxr .stats .wrap,.fxr .cards3,.fxr .why .cards4,.fxr .kits{grid-template-columns:repeat(2,1fr)}.fxr .steps{grid-template-columns:repeat(2,1fr)}.fxr .cats{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:820px){.fxr .hero-grid,.fxr .tabpane.on{grid-template-columns:minmax(0,1fr)}.fxr .hero{padding-top:64px}.fxr .hero-img{order:-1}.fxr section.pad{padding:64px 0}}
+@media(max-width:560px){.fxr .stats .wrap,.fxr .cards3,.fxr .kits,.fxr .why .cards4,.fxr .steps,.fxr .cats{grid-template-columns:minmax(0,1fr)}}
+
+/* ===== FX-FIX-2026 : pleine largeur + lisibilite des titres ===== */
+/* 1. Pleine largeur : Astra .ast-container bride le contenu a 1240px */
+.ast-container:has(.fxr){max-width:100%;width:100%;padding-left:0;padding-right:0;margin-left:0;margin-right:0}
+body.page-id-14977 .ast-container{max-width:100%;width:100%;padding-left:0;padding-right:0;margin-left:0;margin-right:0}
+/* 2. Titres : #content h1-h3 (selecteur ID du theme) ecrasait le design */
+#content .fxr h1,#content .fxr h2,#content .fxr h3{color:inherit}
+#content .fxr h2.sec{color:var(--g9)}
+#content .fxr .hero h1{color:#fff}
+#content .fxr .aides h2.sec,#content .fxr .zones h2.sec,#content .fxr .cta h2{color:#fff}
+#content .fxr .aides .gcard h3{color:#fff}
+#content .fxr .tabpane h3,#content .fxr .kit h3,#content .fxr .wcard h3{color:var(--g9)}
+#content .fxr .step h4{color:var(--g9)}
+
+/* ===== FX-UTIL-2026 : barre services + contact ===== */
+.fxr .util{background:var(--g9);border-top:1px solid rgba(255,255,255,.08);padding:15px 0}
+.fxr .util .wrap{display:flex;flex-wrap:wrap;gap:12px 44px;align-items:center;justify-content:center}
+.fxr .u-item{display:inline-flex;align-items:center;gap:10px;color:#cfe6dd;font-weight:600;font-size:.93rem}
+.fxr .u-item svg,.fxr .u-tel svg{flex:none}
+.fxr .u-tel{display:inline-flex;align-items:center;gap:10px;color:#fff;font-weight:800;font-size:1.05rem;text-decoration:none;transition:color .25s,transform .25s}
+.fxr .u-tel:hover{color:#9fe8cf;transform:translateY(-2px)}
+@media(max-width:560px){.fxr .util .wrap{gap:10px 22px}.fxr .u-item{font-size:.85rem}}
+
+/* ===== FX-EDIT3-2026 : suppression du tiret decoratif + couverture nationale ===== */
+.fxr .eyebrow:before{display:none!important}
+.fxr .eyebrow{gap:0}
+
+/* ===== FX-EDIT4-2026 : respiration boutique + alignement FAQ ===== */
+/* Boutique : plus d air entre les blocs */
+.fxr .shop .wrap > p{margin:18px 0 8px;line-height:1.75}
+.fxr .shop .kits{margin-top:54px;gap:30px}
+.fxr .shop .cats{margin-top:54px;gap:24px}
+.fxr .shop .kit .ph{padding:24px;height:240px}
+.fxr .shop .kit .bd{padding:26px 26px 30px;gap:12px}
+.fxr .shop .kit h3{margin-bottom:2px}
+.fxr .shop .kit p{margin-bottom:6px}
+.fxr .shop .kit a{margin-top:6px}
+
+/* FAQ : cartes unifiees dans style#fx-faq-uni (06/08/2026) */
+
+/* ===== FX-CTA-2026 : fond de la section CTA finale ===== */
+.fxr .cta{background:radial-gradient(120% 140% at 50% 0%,#0e6455 0%,var(--g9) 58%,#00201c 100%);position:relative;overflow:hidden;padding:104px 0}
+.fxr .cta:before{content:"";position:absolute;top:-320px;left:50%;transform:translateX(-50%);width:860px;height:860px;border-radius:50%;background:radial-gradient(circle,rgba(255,214,140,.20),transparent 62%);pointer-events:none}
+.fxr .cta:after{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.075) 1px,transparent 1px);background-size:24px 24px;opacity:.55;pointer-events:none}
+.fxr .cta .wrap{position:relative;z-index:2}
+#content .fxr .cta h2{color:#fff}
+.fxr .cta p{color:#d7ebe4;max-width:46rem;margin-left:auto;margin-right:auto}
+.fxr .cta .btn-light{box-shadow:0 16px 40px rgba(0,0,0,.32)}
+.fxr .cta .tel{border:1.5px solid rgba(255,255,255,.35);border-radius:999px;padding:15px 26px;transition:background .25s,transform .25s}
+.fxr .cta .tel:hover{background:rgba(255,255,255,.12);transform:translateY(-3px)}
+
+/* ===== FX-3D-2026 : profondeur 3D + interactions ===== */
+.fxr{--elev1:0 2px 6px rgba(1,40,35,.06),0 8px 24px rgba(1,40,35,.08);--elev2:0 8px 18px rgba(1,40,35,.10),0 26px 60px rgba(1,40,35,.16);--elev3:0 18px 40px rgba(1,40,35,.16),0 50px 100px rgba(1,40,35,.22)}
+
+/* Contexte 3D sur les grilles */
+.fxr .cards3,.fxr .why .cards4,.fxr .kits,.fxr .steps,.fxr .cats,.fxr .hero-img,.fxr .stats .wrap{perspective:1400px}
+
+/* Carte 3D generique */
+.fxr .tilt{position:relative;transform-style:preserve-3d;will-change:transform;transition:transform .5s cubic-bezier(.16,1,.3,1),box-shadow .5s cubic-bezier(.16,1,.3,1)}
+.fxr .tilt.is-tilting{transition:transform .08s linear,box-shadow .3s}
+.fxr .tilt>*{transform:translateZ(0)}
+.fxr .tilt .lift{transform:translateZ(34px);transform-style:preserve-3d}
+.fxr .glare{position:absolute;inset:0;border-radius:inherit;pointer-events:none;opacity:0;transition:opacity .35s;background:radial-gradient(420px circle at var(--mx,50%) var(--my,50%),rgba(255,255,255,.22),transparent 60%);z-index:3}
+.fxr .tilt:hover .glare{opacity:1}
+
+/* Profondeur renforcee par type de carte */
+.fxr .gcard{box-shadow:0 10px 30px rgba(0,0,0,.18)}
+.fxr .gcard:hover{box-shadow:0 26px 60px rgba(0,0,0,.34)}
+.fxr .wcard,.fxr .kit{box-shadow:var(--elev1)}
+.fxr .wcard:hover,.fxr .kit:hover{box-shadow:var(--elev3)}
+.fxr .step{box-shadow:var(--elev1)}
+.fxr .step:hover{box-shadow:var(--elev2)}
+
+/* Hero : image en profondeur */
+.fxr .hero-img{transform-style:preserve-3d}
+.fxr .hero-img img{will-change:transform;transition:transform .5s cubic-bezier(.16,1,.3,1),box-shadow .5s}
+.fxr .hero-img .chip{transform:translateZ(70px);transition:transform .5s cubic-bezier(.16,1,.3,1)}
+.fxr .hero-img:hover .chip{transform:translateZ(96px) scale(1.04)}
+
+/* Boutons magnetiques */
+.fxr .btn{will-change:transform;position:relative;overflow:hidden}
+.fxr .btn:after{content:"";position:absolute;inset:0;border-radius:inherit;background:radial-gradient(160px circle at var(--bx,50%) var(--by,50%),rgba(255,255,255,.30),transparent 60%);opacity:0;transition:opacity .3s;pointer-events:none}
+.fxr .btn:hover:after{opacity:1}
+
+/* Tuiles categories : profondeur */
+
+
+
+
+
+/* Chiffres cles : relief */
+.fxr .stat{padding:26px 14px;border-radius:18px;background:#fff;box-shadow:var(--elev1);transition:transform .45s cubic-bezier(.16,1,.3,1),box-shadow .45s;transform-style:preserve-3d}
+.fxr .stat:hover{transform:translateY(-8px) rotateX(6deg);box-shadow:var(--elev2)}
+
+/* Reveal 3D au scroll */
+.fxr .rv{transform:translateY(30px) rotateX(8deg);transform-origin:50% 100%}
+.fxr .rv.on{transform:none}
+
+/* ===== SIMULATEUR ===== */
+.fxr .sim{background:radial-gradient(120% 130% at 15% 0%,#0e6455 0%,var(--g9) 60%,#00201c 100%);color:#fff;position:relative;overflow:hidden}
+.fxr .sim:after{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.07) 1px,transparent 1px);background-size:26px 26px;opacity:.5;pointer-events:none}
+.fxr .sim .wrap{position:relative;z-index:2}
+.fxr .sim .eyebrow{color:#9fe0cb}
+#content .fxr .sim h2.sec{color:#fff}
+.fxr .sim-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:52px;align-items:center;margin-top:38px}
+.fxr .sim-ctl{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.16);border-radius:22px;padding:32px 30px;backdrop-filter:blur(8px);box-shadow:0 24px 60px rgba(0,0,0,.30)}
+.fxr .sim-ctl label{display:block;font-weight:700;font-size:.9rem;letter-spacing:.04em;text-transform:uppercase;color:#9fe0cb;margin-bottom:18px}
+.fxr .sim-val{font-size:clamp(2.6rem,5vw,3.8rem);font-weight:800;line-height:1;letter-spacing:-.03em;color:#fff;margin-bottom:6px}
+.fxr .sim-val small{font-size:1.1rem;font-weight:700;color:#9fe0cb;margin-left:6px}
+.fxr .sim-hint{font-size:.88rem;color:#bcd9d0;margin:0 0 26px}
+.fxr input[type=range]{-webkit-appearance:none;appearance:none;width:100%;height:8px;border-radius:999px;background:linear-gradient(90deg,#9fe8cf var(--pct,50%),rgba(255,255,255,.18) var(--pct,50%));outline:none;cursor:pointer}
+.fxr input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:30px;height:30px;border-radius:50%;background:#fff;border:5px solid var(--g);box-shadow:0 8px 22px rgba(0,0,0,.4);cursor:grab;transition:transform .2s}
+.fxr input[type=range]::-webkit-slider-thumb:hover{transform:scale(1.14)}
+.fxr input[type=range]::-moz-range-thumb{width:30px;height:30px;border-radius:50%;background:#fff;border:5px solid var(--g);box-shadow:0 8px 22px rgba(0,0,0,.4);cursor:grab}
+.fxr .sim-scale{display:flex;justify-content:space-between;font-size:.8rem;color:#9fbcb3;margin-top:10px;font-weight:600}
+.fxr .sim-out{display:grid;grid-template-columns:1fr 1fr;gap:18px;perspective:1200px}
+.fxr .sim-card{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);border-radius:18px;padding:24px 22px;transform-style:preserve-3d;transition:transform .45s cubic-bezier(.16,1,.3,1),background .3s,border-color .3s;position:relative;overflow:hidden}
+.fxr .sim-card:hover{transform:translateY(-7px) rotateX(7deg);background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.34)}
+.fxr .sim-card b{display:block;font-size:clamp(1.7rem,3vw,2.3rem);font-weight:800;color:#fff;letter-spacing:-.02em;line-height:1.05}
+.fxr .sim-card small{display:block;margin-top:8px;font-size:.85rem;color:#bcd9d0;font-weight:600;line-height:1.45}
+.fxr .sim-card.hi{background:linear-gradient(150deg,rgba(159,232,207,.20),rgba(255,255,255,.06));border-color:rgba(159,232,207,.42)}
+.fxr .sim-card.hi b{color:#9fe8cf}
+.fxr .sim-note{margin-top:22px;font-size:.8rem;color:#a9cabf;line-height:1.6}
+.fxr .sim-cta{margin-top:26px;display:flex;gap:14px;flex-wrap:wrap}
+@media(max-width:900px){.fxr .sim-grid{grid-template-columns:minmax(0,1fr);gap:34px}}
+@media(max-width:520px){.fxr .sim-out{grid-template-columns:1fr}}
+
+/* ===== FAQ : titres centres, cartes unifiees (06/08/2026) ===== */
+.fxr .faq .wrap{text-align:center}
+.fxr .faq .eyebrow{justify-content:center}
+
+@media(prefers-reduced-motion:reduce){
+ .fxr .tilt,.fxr .cat,.fxr .stat,.fxr .sim-card,.fxr .hero-img img,.fxr .hero-img .chip{transform:none!important;transition:none!important}
+ .fxr .rv{transform:none}
+}
+
+/* ===== FX-UTIL2-2026 : bande services + contact (verre depoli) ===== */
+.fxr .util{background:linear-gradient(180deg,var(--g9),#001d19);padding:26px 0 28px;position:relative;z-index:4;border-top:1px solid rgba(255,255,255,.07)}
+.fxr .util:after{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.06) 1px,transparent 1px);background-size:22px 22px;opacity:.6;pointer-events:none}
+.fxr .util .wrap{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:center;position:relative;z-index:2}
+.fxr .u-pill{display:inline-flex;align-items:center;gap:12px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:999px;padding:15px 26px;color:#e3f2ec;font-weight:700;font-size:.95rem;letter-spacing:.01em;backdrop-filter:blur(12px);box-shadow:0 12px 30px rgba(0,26,23,.38);transition:transform .35s cubic-bezier(.16,1,.3,1),background .3s,border-color .3s,box-shadow .35s}
+.fxr .u-pill:hover{transform:translateY(-5px);background:rgba(255,255,255,.14);border-color:rgba(159,232,207,.45);box-shadow:0 20px 44px rgba(0,26,23,.5)}
+.fxr .u-pill svg{flex:none;color:#9fe8cf;transition:transform .35s cubic-bezier(.16,1,.3,1)}
+.fxr .u-pill:hover svg{transform:scale(1.12) rotate(-4deg)}
+.fxr .u-tel{display:inline-flex;align-items:center;gap:12px;background:linear-gradient(135deg,#9fe8cf,#4fc9a5);color:#00241f;font-weight:800;font-size:1.06rem;letter-spacing:.01em;border-radius:999px;padding:15px 30px;text-decoration:none;box-shadow:0 16px 38px rgba(79,201,165,.34);transition:transform .35s cubic-bezier(.16,1,.3,1),box-shadow .35s,filter .3s}
+.fxr .u-tel:hover{transform:translateY(-5px) scale(1.02);box-shadow:0 24px 52px rgba(79,201,165,.48);filter:saturate(1.1)}
+.fxr .u-tel svg{flex:none}
+.fxr .u-dot{width:9px;height:9px;border-radius:50%;background:#00241f;position:relative;flex:none}
+.fxr .u-dot:before{content:"";position:absolute;inset:-5px;border-radius:50%;border:2px solid rgba(0,36,31,.5);animation:fxPulse 2s ease-out infinite}
+@keyframes fxPulse{0%{transform:scale(.6);opacity:1}100%{transform:scale(1.5);opacity:0}}
+@media(max-width:640px){.fxr .util{padding:20px 0 22px}.fxr .u-pill{padding:12px 18px;font-size:.86rem}.fxr .u-tel{padding:13px 24px;font-size:.98rem;width:100%;justify-content:center}}
+@media(prefers-reduced-motion:reduce){.fxr .u-dot:before{animation:none}.fxr .u-pill:hover,.fxr .u-tel:hover{transform:none}}
+
+/* ===== FX-SHOP2-2026 : visuels boutique plus grands + respiration ===== */
+.fxr .shop .kit .ph{height:auto;aspect-ratio:1/1;padding:10px;background:#fff;overflow:hidden}
+.fxr .shop .kit .ph img{width:100%;height:100%;max-height:none;object-fit:contain;transform:scale(1.08);transition:transform .5s cubic-bezier(.16,1,.3,1)}
+.fxr .shop .kit:hover .ph img{transform:scale(1.15)}
+.fxr .shop .kits{margin-top:56px;gap:32px}
+.fxr .shop .cats{margin-top:78px;gap:26px}
+
+.fxr .shop .cat img{width:100%;height:100%;object-fit:cover;object-position:center}
+
+@media(max-width:560px){.fxr .shop .cats{margin-top:52px}}
+
+/* ===== FX-HOVER2-2026 : remplace le tilt 3D par un survol sobre ===== */
+/* Plus aucune rotation : levee nette + halo qui suit le curseur + trait d accent */
+.fxr .tilt{transform:none;transition:transform .42s cubic-bezier(.16,1,.3,1),box-shadow .42s cubic-bezier(.16,1,.3,1),border-color .35s,background .35s}
+.fxr .tilt.is-tilting{transition:transform .42s cubic-bezier(.16,1,.3,1),box-shadow .42s cubic-bezier(.16,1,.3,1)}
+.fxr .tilt:hover{transform:translateY(-10px)}
+.fxr .tilt .lift{transform:none}
+.fxr .glare{background:radial-gradient(340px circle at var(--mx,50%) var(--my,50%),rgba(255,255,255,.15),transparent 62%)}
+
+/* Trait d accent qui se dessine sous la carte */
+.fxr .gcard,.fxr .wcard,.fxr .kit,.fxr .step,.fxr .sim-card{position:relative;overflow:hidden}
+.fxr .gcard:after,.fxr .wcard:after,.fxr .kit:after,.fxr .step:after,.fxr .sim-card:after{content:"";position:absolute;left:0;right:0;bottom:0;height:3px;background:linear-gradient(90deg,#9fe8cf,#4fc9a5);transform:scaleX(0);transform-origin:0 50%;transition:transform .5s cubic-bezier(.16,1,.3,1);z-index:5;pointer-events:none}
+.fxr .gcard:hover:after,.fxr .wcard:hover:after,.fxr .kit:hover:after,.fxr .step:hover:after,.fxr .sim-card:hover:after{transform:scaleX(1)}
+
+/* Cartes chiffres : levee simple, sans bascule */
+.fxr .stat{transition:transform .42s cubic-bezier(.16,1,.3,1),box-shadow .42s}
+.fxr .stat:hover{transform:translateY(-8px)}
+
+/* Simulateur : plus de rotation */
+.fxr .sim-card:hover{transform:translateY(-8px)}
+
+/* Hero : image stable, plus de parallaxe 3D */
+.fxr .hero-img img{transform:none;transition:transform .5s cubic-bezier(.16,1,.3,1),box-shadow .5s}
+.fxr .hero-img:hover img{transform:translateY(-6px) scale(1.015)}
+.fxr .hero-img .chip{transform:none;transition:transform .45s cubic-bezier(.16,1,.3,1)}
+.fxr .hero-img:hover .chip{transform:translateY(-4px)}
+
+/* Reveals au scroll : sans rotation */
+.fxr .rv{transform:translateY(26px)}
+.fxr .rv.on{transform:none}
+
+/* Tuiles categories : zoom image, label qui remonte */
+
+
+
+
+.fxr .cat img{transition:transform .6s cubic-bezier(.16,1,.3,1)}
+.fxr .cat:hover img{transform:scale(1.09)}
+
+/* ===== Vrais carres : colonnes egales + pas d etirement de rangee ===== */
+.fxr .shop .cats{grid-template-columns:repeat(4,minmax(0,1fr));align-items:start}
+
+.fxr .shop .kits{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(max-width:1024px){
+ .fxr .shop .cats{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .fxr .shop .kits{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:560px){
+ .fxr .shop .cats{grid-template-columns:minmax(0,1fr)}
+ .fxr .shop .kits{grid-template-columns:minmax(0,1fr)}
+}
+
+/* ===== Telephone : survol sobre (plus de zoom ni de saturation) ===== */
+.fxr .u-tel{transition:transform .3s cubic-bezier(.16,1,.3,1),box-shadow .3s,background .3s}
+.fxr .u-tel:hover{transform:translateY(-3px);background:linear-gradient(135deg,#b4f0dc,#5fd6b2);box-shadow:0 20px 44px rgba(79,201,165,.40);filter:none}
+.fxr .u-pill:hover{transform:translateY(-3px)}
+.fxr .u-pill:hover svg{transform:none}
+
+@media(prefers-reduced-motion:reduce){
+ .fxr .tilt:hover,.fxr .cat:hover,.fxr .stat:hover,.fxr .sim-card:hover,.fxr .u-tel:hover,.fxr .u-pill:hover{transform:none}
+ .fxr .cat:hover img,.fxr .hero-img:hover img{transform:none}
+}
+
+/* FAQ : indicateur chevron unifie dans style#fx-faq-uni (06/08/2026) */
+
+/* ===== FX-ICONS-2026 : icones SVG a la place des emojis ===== */
+.fxr .tabbar button{display:inline-flex;align-items:center;gap:9px}
+.fxr .tabbar button .ti{width:19px;height:19px;flex:none}
+.fxr .chip{display:inline-flex;align-items:center;gap:9px}
+.fxr .chip .ci{width:18px;height:18px;flex:none;color:#d9a83a}
+.fxr .gcard .ic svg{width:24px;height:24px;color:#9fe8cf}
+.fxr .cta .tel{display:inline-flex;align-items:center;gap:10px}
+.fxr .cta .tel svg{width:20px;height:20px;flex:none}
+
+/* ===== FX-BADGES-2026 : bandeau de confiance en SVG ===== */
+.fxr .badges .wrap{gap:12px 30px}
+.fxr .badges span{display:inline-flex;align-items:center;gap:9px;color:#cfe6dd;font-weight:600;font-size:.88rem}
+.fxr .badges span svg{width:17px;height:17px;flex:none;color:#9fe8cf}
+@media(max-width:640px){.fxr .badges .wrap{gap:10px 18px}.fxr .badges span{font-size:.8rem}}
+
+/* ===== FX-STATS-2026 : refonte des chiffres cles + bandeau confiance sur une ligne ===== */
+.fxr .stats{background:linear-gradient(180deg,#fbfdfc,var(--mist));padding:74px 0}
+.fxr .stats .wrap{gap:22px;align-items:stretch}
+.fxr .stat{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:6px;background:#fff;border:1px solid #e8efeb;border-radius:20px;padding:32px 20px 28px;box-shadow:0 2px 6px rgba(1,40,35,.04),0 14px 34px rgba(1,40,35,.06);position:relative;overflow:hidden;text-align:center}
+.fxr .stat:before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#9fe8cf,#4fc9a5);transform:scaleX(0);transform-origin:50% 50%;transition:transform .5s cubic-bezier(.16,1,.3,1)}
+.fxr .stat:hover:before{transform:scaleX(1)}
+.fxr .stat .si{width:52px;height:52px;border-radius:16px;background:linear-gradient(145deg,#eaf7f2,#d8f0e6);color:var(--g);display:flex;align-items:center;justify-content:center;margin-bottom:12px;transition:transform .45s cubic-bezier(.16,1,.3,1)}
+.fxr .stat:hover .si{transform:translateY(-3px) scale(1.05)}
+.fxr .stat .si svg{width:25px;height:25px}
+.fxr .stat b{display:block;font-size:clamp(2rem,3.2vw,2.9rem);font-weight:800;color:var(--g);letter-spacing:-.03em;line-height:1.05}
+.fxr .stat b[data-pre]:before{content:attr(data-pre)}
+.fxr .stat b.txt{font-size:clamp(1.35rem,2.1vw,1.8rem);line-height:1.15}
+.fxr .stat small{display:block;margin-top:8px;font-size:.9rem;color:#5c6b76;font-weight:500;line-height:1.5;max-width:15rem}
+/* Bandeau de confiance : tout sur une seule ligne */
+.fxr .badges .wrap{flex-wrap:nowrap;justify-content:space-between;gap:8px 18px;overflow-x:auto;scrollbar-width:none}
+.fxr .badges .wrap::-webkit-scrollbar{display:none}
+.fxr .badges span{white-space:nowrap;font-size:.84rem}
+@media(max-width:1180px){.fxr .badges span{font-size:.76rem}.fxr .badges span svg{width:15px;height:15px}}
+@media(max-width:860px){.fxr .badges .wrap{justify-content:flex-start}}
+
+/* Filet de securite : si le JS ne s execute pas, le contenu apparait quand meme */
+.fxr .rv{animation:fxRevealSafety 0s linear 2.5s forwards}
+@keyframes fxRevealSafety{to{opacity:1;transform:none}}
+.fxr .rv.on{animation:none}
+@media(prefers-reduced-motion:reduce){.fxr .rv{opacity:1;transform:none;animation:none}}
+
+
+
+
+/* ===== Hero : la photo remplit sa boite quel que soit son format ===== */
+.fxr .hero-img img{display:block;width:100%;height:auto;aspect-ratio:650/550;object-fit:cover;object-position:center;background:#0a3f35}
+@media(max-width:782px){.fxr .hero-img img{aspect-ratio:16/10}}
+
+/* ===== Titre du hero : « a Paris et en Ile-de-France » reste d un seul tenant.
+   Insecable seulement au-dessus du mobile, sinon la ligne deborderait. ===== */
+@media(min-width:783px){.fxr .hero h1 .nb{white-space:nowrap}}
+
+/* ===== Tuiles categories : le voile reste en bas de la tuile,
+   le libelle est blanc et passe au-dessus du voile ===== */
+.fxr .cat{position:relative;overflow:hidden;display:block;text-decoration:none}
+.fxr .cat img{width:100%;height:100%;object-fit:cover;display:block}
+.fxr .cat span{position:absolute;left:0;right:0;bottom:0;top:auto;z-index:2;padding:44px 18px 16px;color:#fff;font-weight:800;font-size:1.02rem;line-height:1.25;background:linear-gradient(to top,rgba(1,51,46,.94) 0%,rgba(1,51,46,.78) 45%,transparent 100%);text-shadow:0 1px 2px rgba(0,0,0,.35);transition:padding-bottom .35s cubic-bezier(.16,1,.3,1),background .35s ease}
+.fxr .cat:hover span,.fxr .cat:focus-visible span{color:#fff;padding-bottom:22px;background:linear-gradient(to top,rgba(1,51,46,.98) 0%,rgba(1,51,46,.86) 52%,transparent 100%)}
+.fxr .shop .cat span{padding:52px 20px 20px;font-size:1.06rem}
+.fxr .shop .cat:hover span,.fxr .shop .cat:focus-visible span{padding-bottom:26px}
+@media(prefers-reduced-motion:reduce){.fxr .cat span{transition:none}}
+
+/* ===== Hero : moins d espace au-dessus du surtitre ===== */
+.fxr .hero{padding-top:52px}
+@media(max-width:782px){.fxr .hero{padding-top:34px}}
+
+/* ===== Tuiles categories : forme, coins arrondis et relief
+   (proprietes retablies apres un nettoyage trop large) ===== */
+.fxr .cat{position:relative;display:block;text-decoration:none;overflow:hidden;border-radius:16px;aspect-ratio:1/.82;box-shadow:var(--elev1);transition:transform .45s cubic-bezier(.16,1,.3,1),box-shadow .45s}
+.fxr .cat:hover{transform:translateY(-8px);box-shadow:var(--elev3)}
+.fxr .cat img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s cubic-bezier(.16,1,.3,1)}
+.fxr .cat:hover img{transform:scale(1.09)}
+.fxr .shop .cat{aspect-ratio:1/1;height:auto;align-self:start}
+.fxr .shop .cat img{object-position:center}
+@media(prefers-reduced-motion:reduce){.fxr .cat,.fxr .cat:hover,.fxr .cat img,.fxr .cat:hover img{transform:none;transition:none}}
+
+/* ===== Hero : la photo demarre a la meme hauteur que le texte ===== */
+.fxr .hero-grid{align-items:start}
+.fxr .hero-img{margin-top:0}
+.fxr .hero-img img{margin-top:0}
+
+/* ===== Tuiles categories : bande pleine en bas, libelle pose dessus =====
+   Un degrade se fondait dans la photo et le texte s y noyait. ===== */
+.fxr .cat span{position:absolute;left:0;right:0;bottom:0;top:auto;z-index:3;display:block;padding:15px 18px;background:rgba(1,51,46,.88);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);border-top:1px solid rgba(159,232,207,.28);color:#fff;font-weight:800;font-size:1rem;line-height:1.3;letter-spacing:-.01em;text-shadow:none;transition:background .3s ease,padding .3s cubic-bezier(.16,1,.3,1)}
+.fxr .cat:hover span,.fxr .cat:focus-visible span{background:rgba(1,51,46,.96);padding-top:19px;padding-bottom:19px;color:#fff}
+.fxr .shop .cat span{padding:17px 20px;font-size:1.04rem}
+.fxr .shop .cat:hover span,.fxr .shop .cat:focus-visible span{padding-top:21px;padding-bottom:21px}
+
+/* ===== Simulateur : hierarchie des resultats ===== */
+.fxr .sim-card.lead{grid-column:1/-1;background:linear-gradient(135deg,rgba(159,232,207,.26),rgba(255,255,255,.07));border-color:rgba(159,232,207,.5);padding:28px 26px}
+.fxr .sim-card.lead b{font-size:clamp(2.3rem,4.2vw,3.1rem);color:#9fe8cf}
+.fxr .sim-card.lead small{font-size:.95rem;color:#d5eae2}
+.fxr .sim-hyp{margin-top:20px;border:1px solid rgba(255,255,255,.16);border-radius:14px;background:rgba(255,255,255,.05);overflow:hidden}
+.fxr .sim-hyp summary{cursor:pointer;list-style:none;padding:13px 18px;font-size:.86rem;font-weight:700;letter-spacing:.03em;color:#9fe0cb;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.fxr .sim-hyp summary::-webkit-details-marker{display:none}
+.fxr .sim-hyp summary:after{content:"+";font-size:1.15rem;font-weight:700;color:#9fe8cf;transition:transform .25s ease}
+.fxr .sim-hyp[open] summary:after{transform:rotate(45deg)}
+.fxr .sim-hyp summary:hover{color:#fff}
+.fxr .sim-hyp-in{padding:0 18px 16px}
+.fxr .sim-hyp-in p{margin:0;font-size:.82rem;color:#a9cabf;line-height:1.65}
+@media(prefers-reduced-motion:reduce){.fxr .cat span,.fxr .sim-hyp summary:after{transition:none}}
+
+/* ===== Simulateur : commande et resultats alignes sur la meme ligne =====
+   Le bloc de gauche etait centre verticalement face a une colonne de
+   resultats plus haute : les deux ne demarraient pas a la meme hauteur. ===== */
+.fxr .sim-grid{align-items:start}
+.fxr .sim-ctl{position:sticky;top:100px}
+@media(max-width:900px){.fxr .sim-ctl{position:static;top:auto}}
+
+/* ===== Simulateur : chapeau et hypotheses sur toute la largeur ===== */
+.fxr .sim .sim-intro{max-width:none;color:#d3e8e0;margin:0 0 6px;line-height:1.7}
+.fxr .sim .sim-note{max-width:none;margin:26px 0 0;font-size:.82rem;color:#a9cabf;line-height:1.65;padding-top:18px;border-top:1px solid rgba(255,255,255,.14)}
+.fxr .sim-res{display:flex;flex-direction:column}
+
+/* ===== Simulateur : les 4 resultats sur 2 lignes de 2 =====
+   La carte principale occupait toute la largeur, ce qui donnait
+   3 lignes au lieu de 2. ===== */
+.fxr .sim-out{grid-template-columns:repeat(2,minmax(0,1fr))}
+.fxr .sim-card.lead{grid-column:auto;padding:24px 22px}
+.fxr .sim-card.lead b{font-size:clamp(1.9rem,3.2vw,2.5rem)}
+.fxr .sim-card.lead small{font-size:.85rem}
+@media(max-width:520px){.fxr .sim-out{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* ===== Tuiles categories : regle unique et definitive =====
+   Le fichier accumulait des regles concurrentes au fil des retouches.
+   Celle-ci arrive en dernier et fait autorite.
+   backdrop-filter est retire : combine a l image qui s agrandit au
+   survol, il faisait disparaitre le libelle au repaint. ===== */
+.fxr .cat img{position:relative;z-index:1}
+.fxr .cat span{position:absolute;left:0;right:0;bottom:0;top:auto;z-index:3;display:block;padding:38px 18px 16px;background:linear-gradient(to top,rgba(1,51,46,.95) 0%,rgba(1,51,46,.72) 55%,rgba(1,51,46,0) 100%);backdrop-filter:none;-webkit-backdrop-filter:none;border-top:0;color:#fff;opacity:1;visibility:visible;font-weight:800;font-size:1.02rem;line-height:1.3;letter-spacing:-.01em;text-shadow:0 1px 3px rgba(0,0,0,.45);transition:background .3s ease}
+.fxr .cat:hover span,.fxr .cat:focus-visible span{background:linear-gradient(to top,rgba(1,51,46,.98) 0%,rgba(1,51,46,.82) 60%,rgba(1,51,46,0) 100%);color:#fff;opacity:1;visibility:visible;padding-bottom:20px}
+.fxr .shop .cat span{padding:46px 20px 18px;font-size:1.05rem}
+.fxr .shop .cat:hover span,.fxr .shop .cat:focus-visible span{padding-bottom:22px}
+
+/* ===== Hero : le bloc de texte et la photo font la meme hauteur =====
+   La photo suivait son propre rapport 650/550 : elle ne s alignait
+   qu en haut, jamais en bas. ===== */
+.fxr .hero-grid{align-items:stretch}
+.fxr .hero-img{display:flex;align-items:stretch;min-height:100%}
+.fxr .hero-img img{width:100%;height:100%;aspect-ratio:auto;object-fit:cover;object-position:center;min-height:380px}
+@media(max-width:820px){.fxr .hero-grid{align-items:start}
+  .fxr .hero-img{display:block;min-height:0}
+  .fxr .hero-img img{height:auto;aspect-ratio:16/10;min-height:0}}
+
+/* ===== Liens sur fond sombre : contraste suffisant =====
+   « Commission de regulation de l energie » heritait de la couleur
+   de lien par defaut, illisible sur le vert fonce. ===== */
+.fxr .aides a,.fxr .gcard a,.fxr .sim a:not(.btn),.fxr .cta a:not(.btn),.fxr .note a,.fxr .sim-note a{color:#9fe8cf;text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1.5px;text-decoration-color:rgba(159,232,207,.45);transition:color .2s,text-decoration-color .2s}
+.fxr .aides a:hover,.fxr .gcard a:hover,.fxr .sim a:not(.btn):hover,.fxr .cta a:not(.btn):hover,.fxr .note a:hover,.fxr .sim-note a:hover{color:#fff;text-decoration-color:#fff}
+
+/* ===== Tuiles categories : lisibilite maximale du libelle =====
+   Les vignettes sont des visuels produit sur fond clair ; un degrade
+   ne suffisait pas. Bandeau opaque, contraste garanti. ===== */
+.fxr .cat span{position:absolute!important;left:0;right:0;bottom:0;top:auto;z-index:5;
+  display:block;padding:14px 16px;
+  background:#01332e!important;opacity:1!important;visibility:visible!important;
+  color:#fff!important;font-weight:800;font-size:1rem;line-height:1.3;
+  text-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none;
+  transition:background .25s ease}
+.fxr .cat:hover span,.fxr .cat:focus-visible span{background:#0e6455!important;color:#fff!important}
+.fxr .shop .cat span{padding:16px 18px;font-size:1.04rem}
+
+/* ===== Hero : la photo ne touche plus la section suivante ===== */
+.fxr .hero{padding-bottom:64px}
+.fxr .hero-img img{min-height:340px}
+@media(max-width:820px){.fxr .hero{padding-bottom:44px}}
+
+/* ===== Simulateur : les boutons prennent la largeur de la section ===== */
+.fxr .sim .sim-cta{width:100%;max-width:none;margin:28px 0 0;
+  display:flex;gap:14px;flex-wrap:wrap}
+
+/* ===== Cartes « pourquoi » : titres et descriptions alignes =====
+   Les titres tenant sur une ou deux lignes, les descriptions ne
+   demarraient pas a la meme hauteur d une carte a l autre. ===== */
+.fxr .why .cards4{align-items:stretch}
+.fxr .wcard{display:grid;grid-template-rows:auto auto 1fr;height:100%}
+.fxr .wcard h3{margin:0 0 .5em;min-height:2.6em;display:flex;align-items:flex-end}
+.fxr .wcard p{margin:0}
+@media(max-width:782px){.fxr .wcard h3{min-height:0;display:block}}
+
+/* ===== Texte courant justifie (voir FX-JUSTIF cote personnalisateur) ===== */
+.fxr p.lead,.fxr .gcard p,.fxr .wcard p,.fxr .kit p,.fxr .step p,
+.fxr .tabpane p,.fxr .cta p,.fxr .sim > .wrap > p.sim-intro{
+  text-align:justify;text-justify:inter-word;hyphens:auto;-webkit-hyphens:auto}
+@media(max-width:600px){.fxr p.lead,.fxr .gcard p,.fxr .wcard p,
+  .fxr .kit p,.fxr .step p,.fxr .tabpane p{text-align:left}}
+
+/* ===== Tuiles categories : aucun voile au repos, voile au survol =====
+   Les vignettes sont des visuels produit sur fond clair : le libelle
+   est donc ecrit en vert fonce au repos, et passe en blanc sur voile
+   sombre au survol. ===== */
+.fxr .cat span{position:absolute!important;left:0;right:0;bottom:0;top:auto;z-index:5;
+  display:block;padding:14px 16px;
+  background:transparent!important;box-shadow:none!important;
+  color:#01332e!important;font-weight:800;font-size:1rem;line-height:1.3;
+  text-shadow:0 1px 0 rgba(255,255,255,.9),0 0 6px rgba(255,255,255,.85);
+  backdrop-filter:none;-webkit-backdrop-filter:none;
+  transition:background .28s ease,color .28s ease,text-shadow .28s ease}
+.fxr .cat:hover span,.fxr .cat:focus-visible span{
+  background:linear-gradient(to top,rgba(1,51,46,.96) 0%,rgba(1,51,46,.78) 62%,rgba(1,51,46,0) 100%)!important;
+  color:#fff!important;text-shadow:0 1px 3px rgba(0,0,0,.5);padding-top:34px}
+.fxr .shop .cat span{padding:16px 18px;font-size:1.04rem}
+.fxr .shop .cat:hover span{padding-top:38px}
+/* Pas d ombre portee sur la tuile au repos non plus */
+.fxr .cat{box-shadow:none}
+.fxr .cat:hover{box-shadow:var(--elev3)}
+
+/* ===== Tuiles categories : carte produit plutot que photo legendee =====
+   Les vignettes sont des rendus produit sur fond blanc. Poser un
+   libelle par-dessus etait le mauvais motif : l image etait rognee et
+   le texte cherchait un fond lisible qui n existait pas.
+   Nouveau motif : le produit respire dans une carte blanche, le
+   libelle occupe un bandeau propre en dessous. ===== */
+.fxr .cat{position:relative;display:grid;grid-template-rows:1fr auto;
+  aspect-ratio:1/1.06;overflow:hidden;border-radius:18px;
+  background:#fff;border:1px solid #e3eae6;box-shadow:none;
+  text-decoration:none;isolation:isolate;
+  transition:border-color .3s ease,box-shadow .35s ease,transform .35s cubic-bezier(.16,1,.3,1)}
+.fxr .cat img{width:100%;height:100%;object-fit:contain;object-position:center;
+  padding:22px 22px 8px;background:#fff;
+  transition:transform .45s cubic-bezier(.16,1,.3,1)}
+.fxr .cat span{position:static!important;display:flex;align-items:center;
+  justify-content:space-between;gap:10px;
+  padding:14px 18px;margin:0;
+  background:#f4f7f5!important;border-top:1px solid #e3eae6;
+  color:#01332e!important;font-weight:800;font-size:1rem;line-height:1.25;
+  letter-spacing:-.01em;text-shadow:none;text-align:left;
+  transition:background .3s ease,color .3s ease}
+.fxr .cat span:after{content:"\2192";font-size:1.05rem;font-weight:700;
+  color:#4fc9a5;transform:translateX(0);transition:transform .3s ease,color .3s ease}
+.fxr .cat:hover,.fxr .cat:focus-visible{transform:translateY(-6px);
+  border-color:#9fe8cf;box-shadow:0 20px 44px rgba(1,40,35,.16)}
+.fxr .cat:hover img{transform:scale(1.05)}
+.fxr .cat:hover span,.fxr .cat:focus-visible span{
+  background:#01332e!important;color:#fff!important;border-top-color:#01332e}
+.fxr .cat:hover span:after{transform:translateX(4px);color:#9fe8cf}
+.fxr .shop .cat{aspect-ratio:1/1.06}
+.fxr .shop .cat span{padding:15px 18px;font-size:1.02rem}
+@media(prefers-reduced-motion:reduce){
+  .fxr .cat,.fxr .cat img,.fxr .cat span,.fxr .cat span:after{transition:none;transform:none}}
+
+/* ===== Hero : photo moins haute =====
+   L etirement sur la hauteur du bloc de texte la rendait trop haute ;
+   elle reprend un format defini et s aligne en haut. ===== */
+.fxr .hero-grid{align-items:start}
+.fxr .hero-img{display:block;min-height:0}
+.fxr .hero-img img{width:100%;height:auto;min-height:0;
+  aspect-ratio:16/11;max-height:420px;object-fit:cover;object-position:center}
+@media(max-width:820px){.fxr .hero-img img{aspect-ratio:16/10;max-height:300px}}
+
+/* ===== Cartes « pourquoi » : titres strictement alignes =====
+   La regle en grille posee plus haut creait une troisieme rangee vide.
+   Surtout, les images en chargement differe n occupaient aucune place
+   avant d etre chargees : le bloc de texte remontait, puis redescendait,
+   d ou des titres a des hauteurs differentes. L espace de l image est
+   desormais reserve des le depart. ===== */
+.fxr .why .cards4{align-items:stretch}
+.fxr .wcard{display:flex!important;flex-direction:column;height:100%;
+  grid-template-rows:none}
+.fxr .wcard img{flex:0 0 auto;display:block;width:100%;height:150px;
+  aspect-ratio:auto;object-fit:cover;background:#eef3f0}
+.fxr .wcard .bd{display:flex;flex-direction:column;flex:1 1 auto;
+  padding:20px 20px 24px}
+.fxr .wcard h3{margin:0 0 8px;min-height:0;display:block;
+  font-size:1rem;font-weight:800;line-height:1.35}
+.fxr .wcard p{margin:0;font-size:.86rem;line-height:1.6}
+@media(max-width:1024px){.fxr .wcard img{height:170px}}
+
+/* FAQ : typographie unifiee dans style#fx-faq-uni (06/08/2026) */
+
+/* ===== Hero : photo nettement moins haute ===== */
+.fxr .hero-img img{aspect-ratio:16/9;max-height:330px;height:auto;width:100%;
+  object-fit:cover;object-position:center;min-height:0}
+@media(max-width:820px){.fxr .hero-img img{aspect-ratio:16/9;max-height:240px}}
+
+/* ===== Espacement uniforme entre les sections =====
+   Les retouches successives avaient laisse des valeurs disparates. ===== */
+.fxr section.pad{padding-top:76px;padding-bottom:76px}
+.fxr .hero{padding-top:52px;padding-bottom:64px}
+.fxr section.pad > .wrap > .eyebrow{display:inline-block;margin-bottom:10px}
+.fxr section.pad > .wrap > h2.sec{margin-top:0;margin-bottom:14px}
+@media(max-width:820px){
+  .fxr section.pad{padding-top:52px;padding-bottom:52px}
+  .fxr .hero{padding-top:34px;padding-bottom:44px}}
+
+/* ===== Hero : la photo occupe exactement la hauteur du bloc de texte =====
+   Les regles precedentes lui imposaient un format fixe et un plafond
+   de hauteur : elle etait tantot trop haute, tantot trop courte.
+   Ici elle s etire sur la colonne, du surtitre au bas des boutons. ===== */
+.fxr .hero-grid{align-items:stretch}
+.fxr .hero-img{display:flex;align-items:stretch;min-height:100%;height:auto}
+.fxr .hero-img img{width:100%;height:100%;
+  aspect-ratio:auto!important;max-height:none!important;min-height:0!important;
+  object-fit:cover;object-position:center;display:block}
+@media(max-width:820px){
+  .fxr .hero-grid{align-items:start}
+  .fxr .hero-img{display:block;min-height:0}
+  .fxr .hero-img img{height:auto;aspect-ratio:16/10!important;max-height:280px!important}}
+
+/* ===== Hero : hauteur de photo fixe, reduite par le bas =====
+   Elle s etirait sur toute la hauteur du bloc de texte (~465 px).
+   Le haut reste aligne sur le surtitre, le bas remonte a 400 px. ===== */
+.fxr .hero-grid{align-items:start!important}
+.fxr .hero-img{display:block!important;align-items:initial;min-height:0!important;height:auto!important}
+.fxr .hero-img img{width:100%;height:400px!important;min-height:0!important;
+  max-height:400px!important;aspect-ratio:auto!important;
+  object-fit:cover;object-position:center;display:block}
+@media(max-width:1200px){.fxr .hero-img img{height:360px!important;max-height:360px!important}}
+@media(max-width:820px){.fxr .hero-img img{height:250px!important;max-height:250px!important}}
+
+/* Hero : legere reduction seulement (440 px au lieu de la hauteur pleine) */
+.fxr .hero-img img{height:440px!important;max-height:440px!important}
+@media(max-width:1200px){.fxr .hero-img img{height:390px!important;max-height:390px!important}}
+@media(max-width:820px){.fxr .hero-img img{height:260px!important;max-height:260px!important}}
+
+/* ============================================================
+   FX-LOT1-20260728 — Corrections demandees
+   Le fichier a ete complete par couches successives ; ce bloc
+   final fait autorite sur les points traites ci-dessous.
+   ============================================================ */
+
+/* 1. Onglets de profil : trois boutons de largeur identique */
+.fxr .tabbar{display:flex;gap:10px;flex-wrap:nowrap}
+.fxr .tabbar button{flex:1 1 0;min-width:0;justify-content:center;text-align:center}
+@media(max-width:560px){
+  .fxr .tabbar{flex-wrap:wrap}
+  .fxr .tabbar button{flex:1 1 100%}
+}
+
+/* 2. Hero : les deux appels a l action a la meme largeur */
+.fxr .hero-ctas .btn{min-width:270px;justify-content:center;text-align:center}
+@media(max-width:560px){.fxr .hero-ctas .btn{min-width:0;width:100%}}
+
+/* 5. Simulateur : meme largeur pour les deux boutons */
+.fxr .sim-cta .btn{min-width:300px;justify-content:center;text-align:center}
+@media(max-width:560px){.fxr .sim-cta .btn{min-width:0;width:100%}}
+
+/* 3. Tuiles de categories : libelle lisible au repos comme au survol.
+      Huit redefinitions successives se disputaient .cat span ; on tranche. */
+.fxr .cat > span:not(.glare){
+  position:static!important;display:flex!important;align-items:center;
+  justify-content:space-between;gap:10px;padding:15px 18px 17px!important;
+  background:#f4f7f5!important;color:#01332e!important;
+  opacity:1!important;visibility:visible!important;text-shadow:none!important;
+  border-top:1px solid #e3eae6;font-weight:800;font-size:1rem;line-height:1.3}
+.fxr .cat > span:not(.glare)::after{content:"\2192";color:#4fc9a5;transition:transform .3s,color .3s}
+.fxr .cat:hover > span:not(.glare),.fxr .cat:focus-visible > span:not(.glare){
+  background:#01332e!important;color:#fff!important;border-top-color:#01332e}
+.fxr .cat:hover > span:not(.glare)::after{color:#9fe8cf;transform:translateX(4px)}
+/* .glare est un voile decoratif injecte par home-14977.js : il doit rester
+   en surimpression, sinon il devient une 3e rangee de grille et laisse
+   50 px de vide sous le libelle. */
+.fxr .cat .glare{position:absolute!important;inset:0!important;display:block!important;
+  background:none!important;background-color:transparent!important;border:0!important;
+  padding:0!important;margin:0!important;pointer-events:none;z-index:4;
+  font-size:0!important;line-height:0!important}
+.fxr .cat .glare::after,.fxr .cat .glare::before{content:none!important;display:none!important}
+
+/* 4. Numero de telephone : sans soulignement */
+.fxr a.tel,.fxr a.tel:hover,.fxr a[href^="tel:"],.fxr a[href^="tel:"]:hover{
+  text-decoration:none!important;border-bottom:0!important}
+
+/* 10. Chiffres cles : une seule taille pour les quatre valeurs.
+       « France entiere » etait a 28,8 px face a 46,4 px pour les nombres. */
+.fxr .stats .stat b,.fxr .stats .stat b.txt{
+  font-size:2.9rem!important;line-height:1.06;letter-spacing:-.02em}
+@media(max-width:1024px){.fxr .stats .stat b,.fxr .stats .stat b.txt{font-size:2.4rem!important}}
+@media(max-width:560px){.fxr .stats .stat b,.fxr .stats .stat b.txt{font-size:2.1rem!important}}
+
+
+/* ============================================================
+   FX-LOT2-20260729
+   ============================================================ */
+
+/* Le voile decoratif .glare a provoque deux regressions : passe en
+   statique il devenait une rangee de grille fantome, puis il heritait
+   d un fond opaque #f4f7f5 qui recouvrait la photo produit et le
+   libelle. Il n apporte qu un reflet au survol : on le retire. */
+.fxr .cat .glare{display:none!important}
+
+/* Tuiles : plus d air sous le libelle */
+.fxr .cat > span:not(.glare){padding:16px 18px 26px!important}
+.fxr .shop .cat > span:not(.glare){padding:17px 20px 28px!important}
+
+/* Bandeau de confiance : six elements en flex-wrap:nowrap se tassaient
+   sur mobile. On passe a deux colonnes lisibles. */
+@media(max-width:820px){
+  .fxr .badges .wrap{flex-wrap:wrap!important;justify-content:center;
+    gap:10px 14px!important;padding-left:16px;padding-right:16px}
+}
+@media(max-width:560px){
+  .fxr .badges .wrap{display:grid!important;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:12px 10px!important;justify-items:start}
+  .fxr .badges .wrap > span{font-size:.82rem;line-height:1.25;
+    display:flex;align-items:flex-start;gap:7px;white-space:normal}
+  .fxr .badges .wrap > span svg{width:16px;height:16px;flex:0 0 16px;margin-top:2px}
+}
+
+/* Bandeau defilant : il ne tournait pas sur telephone. On force la piste
+   sur une seule ligne a sa largeur naturelle, sinon l animation n a rien
+   a faire defiler. */
+@media(max-width:820px){
+  .fxr .tick{display:block!important;overflow:hidden!important}
+  .fxr .tick-in{display:flex!important;flex-wrap:nowrap!important;
+    width:max-content!important;min-width:max-content!important;
+    animation:fxrTick 26s linear infinite!important}
+  .fxr .tick-in > span{flex:0 0 auto;white-space:nowrap}
+}
+@media(prefers-reduced-motion:reduce){
+  /* FX-TICK-20260810 : demande client - le bandeau continue de defiler meme en
+     reduced-motion, mais deux fois plus lentement (60s au lieu de 26s).
+     Specificite .fxr .tick-in > .fxr * : cette regle gagne aussi sur le kill global. */
+  .fxr .tick-in{animation:fxrTick 60s linear infinite!important}
+}
+
+
+/* ===== FX-LOT3-TUILE-HAUTEUR : le libelle etait coupe en deux =====
+   La carte imposait aspect-ratio:1/1.06 avec overflow:hidden. Les deux
+   rangees mesuraient 228 + 55 = 283 px dans une carte de 285 : ca tenait
+   de justesse. En portant la marge basse du libelle a 26 px, la rangee
+   est passee a 68 px, soit 296 px pour 285 disponibles : le texte se
+   faisait rogner par le bas.
+   On libere donc la hauteur de la carte et on fixe le format de l image a
+   la place. La carte grandit desormais pour contenir son libelle, et les
+   quatre tuiles restent de meme hauteur en s etirant dans la grille. */
+.fxr .cats{align-items:stretch!important}
+.fxr .shop .cats{align-items:stretch!important}
+.fxr .cat,.fxr .shop .cat{
+  aspect-ratio:auto!important;height:auto!important;align-self:stretch!important}
+.fxr .cat img{
+  aspect-ratio:1/.82;height:auto!important;min-height:0!important;max-height:none!important}
+.fxr .cat > span:not(.glare){min-height:0;overflow:visible}
+
+
+/* ===== FX-LOT4-TUILE-COMPACTE : moins d air, photo entiere =====
+   Deux defauts : la photo etait en object-fit:cover, donc rognee sur les
+   bords alors que ce sont des rendus produit qu il faut voir en entier ;
+   et le bloc respirait trop apres les corrections de marge successives.
+   On passe en contain, on resserre les marges internes et on raccourcit
+   le format de l image. */
+.fxr .cat img{
+  object-fit:contain!important;object-position:center center!important;
+  aspect-ratio:1/.72!important;
+  padding:14px 16px 6px!important;background:#fff}
+.fxr .cat > span:not(.glare){padding:12px 16px 14px!important;font-size:.98rem}
+.fxr .shop .cat > span:not(.glare){padding:13px 18px 15px!important;font-size:1rem}
+.fxr .cats,.fxr .shop .cats{gap:18px!important}
+@media(max-width:560px){
+  .fxr .cat img{aspect-ratio:1/.66!important;padding:12px 14px 4px!important}
+  .fxr .cat > span:not(.glare){padding:11px 14px 13px!important}
+}
+
+
+/* ===== FX-LOT5-BADGES : trop de vide sous la bande de confiance =====
+   La bande (RGE QualiPV, garantie decennale, 4,5/5, 25 ans, livraison,
+   transactions securisees) est le dernier element de la section hero.
+   Les 64 px de padding-bas de la section s ajoutaient a ses 18 px propres,
+   soit 82 px de vert vide avant le bandeau defilant. On ramene a 26. */
+.fxr .hero{padding-bottom:16px!important}
+.fxr .hero .badges,.fxr .badges{padding-top:16px!important;padding-bottom:10px!important}
+@media(max-width:820px){
+  .fxr .hero{padding-bottom:14px!important}
+  .fxr .badges{padding-top:14px!important;padding-bottom:12px!important}
+}
+
+
+/* ===== FX-LOT6-TAILLES-MOBILES (audit) : libelles sous le seuil de confort =====
+   .eyebrow sortait a ~12,5 px en capitales espacees et les badges a ~12,2 px
+   sous 1180 px : trop petit pour des libelles porteurs de sens sur telephone. */
+.fxr .eyebrow{font-size:.85rem}
+@media(max-width:1180px){.fxr .badges .wrap > span{font-size:.82rem}}
+
+
+/* ================= FX-UI-20260806 : correctifs client (debut) ================= */
+
+/* ----- FX-UI1 : le bandeau defilant se figeait sur telephone -----
+   Cause : .fxr .tick:hover .tick-in{animation-play-state:paused}. Sur un
+   ecran tactile, l etat :hover reste colle a l element touche apres un appui
+   ou un scroll : le bandeau s arretait donc definitivement des le premier
+   contact du doigt. On reserve la pause au survol souris (hover:hover +
+   pointer:fine). La piste reste sur une seule ligne, a sa largeur naturelle,
+   et le contenu est deja duplique dans le HTML pour boucler sans saut.
+   prefers-reduced-motion continue d arreter l animation. */
+.fxr .tick{overflow:hidden!important;max-width:100%}
+.fxr .tick-in{display:flex!important;flex-wrap:nowrap!important;white-space:nowrap;
+  width:-webkit-max-content;width:max-content;
+  min-width:-webkit-max-content;min-width:max-content;
+  will-change:transform;backface-visibility:hidden;-webkit-backface-visibility:hidden;
+  animation:fxrTick 26s linear infinite}
+.fxr .tick-in > span{flex:0 0 auto;white-space:nowrap}
+.fxr .tick:hover .tick-in{animation-play-state:running}
+@media (hover:hover) and (pointer:fine){
+  .fxr .tick:hover .tick-in{animation-play-state:paused}
+}
+@media(max-width:820px){
+  .fxr .tick-in{animation:fxrTick 25s linear infinite!important;animation-play-state:running!important}
+}
+@media(prefers-reduced-motion:reduce){
+  .fxr .tick-in{animation:fxrTick 60s linear infinite!important} /* FX-TICK-20260810 : defile lentement meme en reduced-motion, demande client */
+}
+
+/* ----- FX-UI2 : la carte « 100 % RGE QualiPV » n etait pas alignee -----
+   La garde globale body:not(.woocommerce):not(.woocommerce-page) img
+   {height:auto} (specificite 0,2,2) ecrasait .fxr .wcard img{height:150px}
+   (0,2,1). Chaque vignette prenait donc la hauteur de son ratio natif :
+   192 / 133 / 180 / 180 px. Le bloc de texte de la carte RGE demarrait
+   59 px plus haut que celui de ses voisines. On remonte la specificite avec
+   #content et on reserve une boite d image strictement identique pour les
+   quatre cartes. Le logo QualiPV est un aplat sur fond blanc : object-fit
+   contain pour ne pas le rogner, les photos restent en cover. */
+#content .fxr .why .cards4{align-items:stretch}
+#content .fxr .wcard{display:flex;flex-direction:column;height:100%;
+  box-sizing:border-box}
+#content .fxr .wcard img{display:block;width:100%;
+  height:180px;min-height:180px;max-height:180px;flex:0 0 180px;
+  object-fit:cover;object-position:center center;background:#eef3f0;
+  aspect-ratio:auto}
+#content .fxr .wcard img[src*="Logo-QualiPV"]{
+  object-fit:contain;background:#fff;padding:14px 18px;box-sizing:border-box}
+#content .fxr .wcard .bd{display:flex;flex-direction:column;flex:1 1 auto;
+  padding:20px 20px 24px;box-sizing:border-box}
+#content .fxr .wcard h3{margin:0 0 8px;min-height:0;display:block;
+  font-size:1rem;font-weight:800;line-height:1.35}
+#content .fxr .wcard p{margin:0;font-size:.86rem;line-height:1.6}
+@media(max-width:1024px){
+  #content .fxr .wcard img{height:190px;min-height:190px;max-height:190px;flex-basis:190px}
+}
+@media(max-width:782px){
+  #content .fxr .wcard img{height:200px;min-height:200px;max-height:200px;flex-basis:200px}
+}
+
+/* ----- FX-UI3 : les deux boutons du CTA final avaient des largeurs inegales -----
+   Mesure avant correctif a 1440 px : « Je demande mon devis gratuit » 295,08 px
+   et « 07 69 49 67 57 » 197,62 px. Une simple min-width laissait le premier
+   bouton deborder de son gabarit (316,8 vs 300) : on passe la rangee en grille
+   a deux colonnes strictement egales, les deux enfants remplissant leur
+   colonne. Largeurs identiques a la fraction de pixel pres, hauteurs egales
+   par etirement, colonne unique sous 780 px. */
+.fxr .cta .row{display:grid;grid-template-columns:repeat(2,minmax(0,340px));
+  gap:16px;justify-content:center;align-items:stretch;position:relative}
+.fxr .cta .row > .btn,
+.fxr .cta .row > .tel{box-sizing:border-box;min-width:0;width:100%;
+  display:inline-flex;align-items:center;justify-content:center;text-align:center}
+.fxr .cta .row > .btn{padding:16px 24px}
+.fxr .cta .row > .tel{padding:15px 24px}
+@media(max-width:780px){
+  .fxr .cta .row{grid-template-columns:minmax(0,340px);gap:12px}
+}
+
+/* ================= FX-UI-20260806 : correctifs client (fin) ================= */
+
+/* 22/08/2026 : centrage mobile - 1fr ne retrecit pas sous le min-content d'un enfant (grid blowout hero) ; CTA isole des tabpanes centre */
+@media(max-width:820px){.fxr .tabpane .btn{margin-inline:auto;display:flex;width:fit-content}}
+
+/* 22/08/2026 : #fxrSticky (vestige de barre sticky jamais stylee, sans CSS ni JS) : bouton brut redondant avec la section CTA juste au-dessus -> masque */
+.fxr #fxrSticky{display:none}
+
+/* 22/08/2026 : boutons d'une meme rangee = meme largeur (demande client) - seul groupe inegal du site : hero accueil */
+.fxr .hero-ctas .btn{min-width:min(310px,100%);justify-content:center}

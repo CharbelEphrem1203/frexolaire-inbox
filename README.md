@@ -2,6 +2,14 @@
 
 Dépôt public servant de **boîte de dépôt** entre la routine de rédaction cloud et le site frexolaire.com.
 
+## Pont design (assets/fx/)
+
+Les fichiers `assets/fx/*.css` sont synchronisés vers `wp-content/uploads/fx/` du site par le
+mu-plugin `fx-css-sync` (endpoint secret pour déploiement immédiat + cron 2×/jour en filet).
+Sauvegarde automatique avant écrasement, resynchronisation des `?v=` sur les pages référentes,
+purge LiteSpeed+ADC+Cloudflare à chaque changement. **CSS uniquement** — aucun PHP ne transite
+par ce dépôt ni par ce pont.
+
 ## Fonctionnement
 1. La routine cloud rédige un article et le committe dans `inbox/<slug>.json` (branche master, ou branche `article/<slug>` si le push direct est refusé).
 2. Le mu-plugin `fx-article-ingest.php` du site scanne ce dépôt **toutes les heures** (master + branches `article/*`), importe les nouveaux fichiers, publie, purge les caches (LiteSpeed + ADC + Cloudflare) et notifie IndexNow.
