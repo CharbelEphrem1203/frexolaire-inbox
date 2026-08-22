@@ -1,684 +1,572 @@
-{
-    "generated": "2026-08-21T14:15:53+00:00",
-    "count": 113,
-    "posts": [
-        {
-            "slug": "assurance-habitation-panneaux-solaires",
-            "title": "Panneaux solaires et assurance habitation : le guide",
-            "focus": "assurance habitation panneaux solaires",
-            "url": "https://www.frexolaire.com/blog/assurance-habitation-panneaux-solaires/"
-        },
-        {
-            "slug": "consuel-photovoltaique-2026",
-            "title": "Consuel photovoltaïque 2026 : obtenir son attestation",
-            "focus": "consuel photovoltaïque",
-            "url": "https://www.frexolaire.com/blog/consuel-photovoltaique-2026/"
-        },
-        {
-            "slug": "panneaux-solaires-corse-2026",
-            "title": "Panneaux solaires en Corse : guide local 2026",
-            "focus": "Panneaux solaires en Corse",
-            "url": "https://www.frexolaire.com/blog/panneaux-solaires-corse-2026/"
-        },
-        {
-            "slug": "panneaux-solaires-montpellier-occitanie",
-            "title": "Panneaux solaires à Montpellier et en Occitanie : guide local 2026",
-            "focus": "Panneaux solaires à Montpellier",
-            "url": "https://www.frexolaire.com/blog/panneaux-solaires-montpellier-occitanie/"
-        },
-        {
-            "slug": "panneaux-solaires-nice-cote-azur",
-            "title": "Panneaux solaires à Nice et sur la Côte d'Azur : guide local 2026",
-            "focus": "Panneaux solaires à Nice",
-            "url": "https://www.frexolaire.com/blog/panneaux-solaires-nice-cote-azur/"
-        },
-        {
-            "slug": "panneaux-solaires-reims-champagne",
-            "title": "Panneaux solaires à Reims et en Champagne : guide local 2026",
-            "focus": "Panneaux solaires à Reims",
-            "url": "https://www.frexolaire.com/blog/panneaux-solaires-reims-champagne/"
-        },
-        {
-            "slug": "panneaux-solaires-dijon-bourgogne",
-            "title": "Panneaux solaires à Dijon et en Bourgogne-Franche-Comté : guide local 2026",
-            "focus": "Panneaux solaires à Dijon",
-            "url": "https://www.frexolaire.com/blog/panneaux-solaires-dijon-bourgogne/"
-        },
-        {
-            "slug": "panneaux-solaires-lille-hauts-de-france",
-            "title": "Panneaux solaires à Lille et dans les Hauts-de-France : guide local 2026",
-            "focus": "Panneaux solaires à Lille",
-            "url": "https://www.frexolaire.com/blog/panneaux-solaires-lille-hauts-de-france/"
-        },
-        {
-            "slug": "panneaux-solaires-strasbourg-grand-est",
-            "title": "Panneaux solaires à Strasbourg et dans le Grand Est : guide local 2026",
-            "focus": "Panneaux solaires à Strasbourg",
-            "url": "https://www.frexolaire.com/blog/panneaux-solaires-strasbourg-grand-est/"
-        },
-        {
-            "slug": "panneaux-solaires-nantes-pays-de-la-loire",
-            "title": "Panneaux solaires à Nantes et en Pays-de-la-Loire : guide local 2026",
-            "focus": "Panneaux solaires à Nantes",
-            "url": "https://www.frexolaire.com/blog/panneaux-solaires-nantes-pays-de-la-loire/"
-        },
-        {
-            "slug": "panneaux-solaires-bordeaux-nouvelle-aquitaine",
-            "title": "Panneaux solaires à Bordeaux et en Nouvelle-Aquitaine : guide local 2026",
-            "focus": "Panneaux solaires à Bordeaux",
-            "url": "https://www.frexolaire.com/blog/panneaux-solaires-bordeaux-nouvelle-aquitaine/"
-        },
-        {
-            "slug": "panneaux-solaires-toulouse-haute-garonne",
-            "title": "Panneaux solaires à Toulouse et en Haute-Garonne : guide local 2026",
-            "focus": "Panneaux solaires à Toulouse",
-            "url": "https://www.frexolaire.com/blog/panneaux-solaires-toulouse-haute-garonne/"
-        },
-        {
-            "slug": "comparatif-batterie-virtuelle-2026",
-            "title": "Comparatif batterie virtuelle 2026 : MyLight, Urban Solar et OHM au banc d'essai",
-            "focus": "comparatif batterie virtuelle",
-            "url": "https://www.frexolaire.com/blog/comparatif-batterie-virtuelle-2026/"
-        },
-        {
-            "slug": "batterie-virtuelle-urbansolar",
-            "title": "Batterie virtuelle UrbanSolar : ce qu'elle rapporte vraiment en 2026",
-            "focus": "batterie virtuelle UrbanSolar",
-            "url": "https://www.frexolaire.com/blog/batterie-virtuelle-urbansolar/"
-        },
-        {
-            "slug": "batterie-virtuelle-mylight",
-            "title": "Batterie virtuelle MyLight : fonctionnement, tarifs et limites en 2026",
-            "focus": "batterie virtuelle MyLight",
-            "url": "https://www.frexolaire.com/blog/batterie-virtuelle-mylight/"
-        },
-        {
-            "slug": "faut-il-installer-panneaux-solaires-france-2026",
-            "title": "Faut-il vraiment installer des panneaux solaires en France en 2026 ?",
-            "focus": "installer des panneaux solaires",
-            "url": "https://www.frexolaire.com/blog/faut-il-installer-panneaux-solaires-france-2026/"
-        },
-        {
-            "slug": "voiture-electrique-panneaux-solaires-economies-5-ans",
-            "title": "Voiture électrique avec panneaux solaires : économies cumulées sur 5 ans",
-            "focus": "Voiture électrique avec panneaux solaires",
-            "url": "https://www.frexolaire.com/blog/voiture-electrique-panneaux-solaires-economies-5-ans/"
-        },
-        {
-            "slug": "panneaux-solaires-lyon-aura",
-            "title": "Installer des panneaux solaires à Lyon et en Auvergne-Rhône-Alpes en 2026",
-            "focus": "panneaux solaires Lyon",
-            "url": "https://www.frexolaire.com/blog/panneaux-solaires-lyon-aura/"
-        },
-        {
-            "slug": "economies-panneaux-solaires-copropriete",
-            "title": "Combien rapportent vraiment les panneaux solaires en copropriété : étude de cas",
-            "focus": "panneaux solaires copropriété",
-            "url": "https://www.frexolaire.com/blog/economies-panneaux-solaires-copropriete/"
-        },
-        {
-            "slug": "ppa-solaire-entreprise",
-            "title": "PPA solaire (Power Purchase Agreement) en France : montage, fiscalité, durée",
-            "focus": "PPA solaire (Power Purchase Agreement)",
-            "url": "https://www.frexolaire.com/blog/ppa-solaire-entreprise/"
-        },
-        {
-            "slug": "batterie-physique-stockage-virtuel-comparatif",
-            "title": "Batterie physique ou stockage virtuel : le vrai comparatif 2026",
-            "focus": "stockage virtuel",
-            "url": "https://www.frexolaire.com/blog/batterie-physique-stockage-virtuel-comparatif/"
-        },
-        {
-            "slug": "maprimerenov-panneaux-solaires-verite",
-            "title": "MaPrimeRénov' et panneaux solaires : pourquoi le photovoltaïque n'y a pas droit",
-            "focus": "maprimerenov panneaux solaires",
-            "url": "https://www.frexolaire.com/blog/maprimerenov-panneaux-solaires-verite/"
-        },
-        {
-            "slug": "arnaques-demarchage-solaire-signaux-alerte",
-            "title": "Démarchage solaire : les 7 signaux d'une arnaque (et comment vérifier un devis)",
-            "focus": "arnaque démarchage solaire",
-            "url": "https://www.frexolaire.com/blog/arnaques-demarchage-solaire-signaux-alerte/"
-        },
-        {
-            "slug": "fin-prime-autoconsommation-rachat-1-centime-2026",
-            "title": "Fin de la prime et rachat à 1,1 centime : le solaire est-il encore rentable en 2026 ?",
-            "focus": "rentabilité panneaux solaires 2026",
-            "url": "https://www.frexolaire.com/blog/fin-prime-autoconsommation-rachat-1-centime-2026/"
-        },
-        {
-            "slug": "photovoltaique-france-2027-tendances",
-            "title": "Photovoltaïque en France 2027 : tendances, prix, technologies (article pillar)",
-            "focus": "photovoltaïque en France 2027",
-            "url": "https://www.frexolaire.com/blog/photovoltaique-france-2027-tendances/"
-        },
-        {
-            "slug": "rentabilite-installation-photovoltaique-france",
-            "title": "Quelle est la rentabilité d'une installation photovoltaïque en France ?",
-            "focus": "rentabilité installation photovoltaïque",
-            "url": "https://www.frexolaire.com/blog/rentabilite-installation-photovoltaique-france/"
-        },
-        {
-            "slug": "photovoltaique-bureaux-tertiaire",
-            "title": "Photovoltaïque pour bureaux et tertiaire : conformité loi APER",
-            "focus": "Photovoltaïque pour bureaux",
-            "url": "https://www.frexolaire.com/blog/photovoltaique-bureaux-tertiaire/"
-        },
-        {
-            "slug": "photovoltaique-maison-secondaire",
-            "title": "Photovoltaïque pour maison secondaire : guide complet 2026",
-            "focus": "Photovoltaïque pour maison secondaire",
-            "url": "https://www.frexolaire.com/blog/photovoltaique-maison-secondaire/"
-        },
-        {
-            "slug": "eco-ptz-financement-bancaire-photovoltaique",
-            "title": "Éco-PTZ et financement bancaire vert pour le photovoltaïque en 2026",
-            "focus": "éco-PTZ photovoltaïque",
-            "url": "https://www.frexolaire.com/blog/eco-ptz-financement-bancaire-photovoltaique/"
-        },
-        {
-            "slug": "coup-de-pouce-cee-photovoltaique-2026",
-            "title": "CEE et photovoltaïque 2026 : ce que les certificats financent vraiment",
-            "focus": "CEE photovoltaïque",
-            "url": "https://www.frexolaire.com/blog/coup-de-pouce-cee-photovoltaique-2026/"
-        },
-        {
-            "slug": "panneaux-solaires-versailles-saint-cloud-boulogne",
-            "title": "Panneaux solaires à Versailles, Saint-Cloud et Boulogne-Billancourt : ABF et rentabilité",
-            "focus": "panneaux solaires Versailles",
-            "url": "https://www.frexolaire.com/blog/panneaux-solaires-versailles-saint-cloud-boulogne/"
-        },
-        {
-            "slug": "optimiseur-puissance-solaire",
-            "title": "Optimiseur de puissance solaire (Tigo, SolarEdge) : utile ou marketing",
-            "focus": "optimiseur de puissance solaire",
-            "url": "https://www.frexolaire.com/blog/optimiseur-puissance-solaire/"
-        },
-        {
-            "slug": "ombriere-photovoltaique-entreprise",
-            "title": "Ombrière photovoltaïque entreprise : prix, dimensionnement et ROI en 2026",
-            "focus": "Ombrière photovoltaïque entreprise",
-            "url": "https://www.frexolaire.com/blog/ombriere-photovoltaique-entreprise/"
-        },
-        {
-            "slug": "batterie-panneau-solaire-utile",
-            "title": "Faut-il vraiment une batterie pour des panneaux solaires en 2026 (calcul ROI)",
-            "focus": "Une batterie pour des panneaux",
-            "url": "https://www.frexolaire.com/blog/batterie-panneau-solaire-utile/"
-        },
-        {
-            "slug": "3-6-9-kwc-quelle-puissance-choisir",
-            "title": "3, 6 ou 9 kWc : quelle puissance choisir pour vos panneaux solaires",
-            "focus": "3, 6 ou 9 kWc",
-            "url": "https://www.frexolaire.com/blog/3-6-9-kwc-quelle-puissance-choisir/"
-        },
-        {
-            "slug": "prix-installation-6-kwc-2026",
-            "title": "Prix d'une installation photovoltaïque 6 kWc en 2026 : décomposition complète",
-            "focus": "Prix d'une installation photovoltaïque 6",
-            "url": "https://www.frexolaire.com/blog/prix-installation-6-kwc-2026/"
-        },
-        {
-            "slug": "combien-rapportent-panneaux-solaires-autoconsommation",
-            "title": "Combien rapportent vraiment des panneaux solaires en 2026 (calcul détaillé)",
-            "focus": "Rapportent vraiment des panneaux solaires",
-            "url": "https://www.frexolaire.com/blog/combien-rapportent-panneaux-solaires-autoconsommation/"
-        },
-        {
-            "slug": "aides-photovoltaique-entreprises-2026",
-            "title": "Aides photovoltaïque pour entreprises 2026 : ce qui reste après la réforme",
-            "focus": "Aides photovoltaïque pour entreprises 2026",
-            "url": "https://www.frexolaire.com/blog/aides-photovoltaique-entreprises-2026/"
-        },
-        {
-            "slug": "aides-panneaux-solaires-ile-de-france",
-            "title": "Aides panneaux solaires en Île-de-France 2026 : ce qui existe vraiment",
-            "focus": "Aides panneaux solaires Île-de-France",
-            "url": "https://www.frexolaire.com/blog/aides-panneaux-solaires-ile-de-france/"
-        },
-        {
-            "slug": "prime-autoconsommation-2026",
-            "title": "Prime à l'autoconsommation 2026 : supprimée depuis le 5 juin (droits acquis et alternatives)",
-            "focus": "Prime à l'autoconsommation 2026",
-            "url": "https://www.frexolaire.com/blog/prime-autoconsommation-2026/"
-        },
-        {
-            "slug": "copropriete-mixte-residence-commerce-pv",
-            "title": "Copropriétés mixtes (résidence + commerces) : optimisation photovoltaïque",
-            "focus": "Copropriétés mixtes (résidence + commerces)",
-            "url": "https://www.frexolaire.com/blog/copropriete-mixte-residence-commerce-pv/"
-        },
-        {
-            "slug": "ppt-copropriete-photovoltaique",
-            "title": "Plan Pluriannuel de Travaux (PPT) et photovoltaïque",
-            "focus": "Plan Pluriannuel de Travaux (PPT)",
-            "url": "https://www.frexolaire.com/blog/ppt-copropriete-photovoltaique/"
-        },
-        {
-            "slug": "audit-energetique-copropriete-photovoltaique",
-            "title": "Audit énergétique copropriété : préalable indispensable au projet photovoltaïque",
-            "focus": "Audit énergétique copropriété",
-            "url": "https://www.frexolaire.com/blog/audit-energetique-copropriete-photovoltaique/"
-        },
-        {
-            "slug": "autoconsommation-collective-elargie-quartier",
-            "title": "ACC élargie : autoconsommation collective entre quartiers",
-            "focus": "ACC élargie",
-            "url": "https://www.frexolaire.com/blog/autoconsommation-collective-elargie-quartier/"
-        },
-        {
-            "slug": "photovoltaique-piscine-chauffage",
-            "title": "Photovoltaïque pour piscine : autoconsommer pour chauffer et filtrer",
-            "focus": "Photovoltaïque pour piscine",
-            "url": "https://www.frexolaire.com/blog/photovoltaique-piscine-chauffage/"
-        },
-        {
-            "slug": "pv-maison-ancienne",
-            "title": "Photovoltaïque pour maison ancienne : guide pratique",
-            "focus": "Photovoltaïque pour maison ancienne",
-            "url": "https://www.frexolaire.com/blog/pv-maison-ancienne/"
-        },
-        {
-            "slug": "pv-maison-passive-re2020",
-            "title": "Photovoltaïque pour maison passive ou RE2020 : neutralité énergétique",
-            "focus": "Photovoltaïque pour maison passive",
-            "url": "https://www.frexolaire.com/blog/pv-maison-passive-re2020/"
-        },
-        {
-            "slug": "panneaux-solaires-toiture-ardoise",
-            "title": "Panneaux solaires sur toiture ardoise : guide complet 2026",
-            "focus": "Panneaux solaires sur toiture ardoise",
-            "url": "https://www.frexolaire.com/blog/panneaux-solaires-toiture-ardoise/"
-        },
-        {
-            "slug": "panneaux-solaires-toit-terrasse-plat",
-            "title": "Panneaux solaires sur toit-terrasse plat : guide complet 2026",
-            "focus": "Panneaux solaires sur toit-terrasse plat",
-            "url": "https://www.frexolaire.com/blog/panneaux-solaires-toit-terrasse-plat/"
-        },
-        {
-            "slug": "credit-impot-photovoltaique-2026",
-            "title": "Crédit d'impôt photovoltaïque : ce qui existe (et ce qui n'existe pas)",
-            "focus": "Crédit d'impôt photovoltaïque",
-            "url": "https://www.frexolaire.com/blog/credit-impot-photovoltaique-2026/"
-        },
-        {
-            "slug": "aides-copropriete-photovoltaique-2026",
-            "title": "Aides photovoltaïque copropriété 2026 : le panorama honnête",
-            "focus": "Aides photovoltaïque copropriété 2026",
-            "url": "https://www.frexolaire.com/blog/aides-copropriete-photovoltaique-2026/"
-        },
-        {
-            "slug": "refonte-tarifaire-s22-2026",
-            "title": "Refonte tarifaire photovoltaïque 2026 : ce qui change depuis le 5 juin",
-            "focus": "refonte tarifaire photovoltaïque 2026",
-            "url": "https://www.frexolaire.com/blog/refonte-tarifaire-s22-2026/"
-        },
-        {
-            "slug": "kit-solaire-3-kwc-comparatif",
-            "title": "Top 5 des kits solaires 3 kWc en France en 2026",
-            "focus": "Top 5 des kits solaires",
-            "url": "https://www.frexolaire.com/blog/kit-solaire-3-kwc-comparatif/"
-        },
-        {
-            "slug": "installer-panneaux-solaires-soi-meme",
-            "title": "Installer ses panneaux solaires soi-même en 2026 : ce que vous perdez",
-            "focus": "Installer ses panneaux solaires soi-même",
-            "url": "https://www.frexolaire.com/blog/installer-panneaux-solaires-soi-meme/"
-        },
-        {
-            "slug": "kit-solaire-plug-and-play",
-            "title": "Kit solaire plug & play (balcon, jardin) en 2026 : avis honnête",
-            "focus": "Kit solaire plug & play",
-            "url": "https://www.frexolaire.com/blog/kit-solaire-plug-and-play/"
-        },
-        {
-            "slug": "lfp-vs-lithium-ion-vs-plomb-batterie-solaire",
-            "title": "LFP, lithium-ion ou plomb : quelle technologie pour une batterie solaire en 2026",
-            "focus": "LFP, lithium-ion ou plomb",
-            "url": "https://www.frexolaire.com/blog/lfp-vs-lithium-ion-vs-plomb-batterie-solaire/"
-        },
-        {
-            "slug": "batterie-virtuelle",
-            "title": "Batterie virtuelle : comment ça marche et pour qui c'est intéressant en 2026",
-            "focus": "batterie virtuelle photovoltaïque",
-            "url": "https://www.frexolaire.com/blog/batterie-virtuelle/"
-        },
-        {
-            "slug": "dimensionner-batterie-solaire",
-            "title": "Dimensionner sa batterie solaire : la méthode complète",
-            "focus": "Dimensionner sa batterie solaire",
-            "url": "https://www.frexolaire.com/blog/dimensionner-batterie-solaire/"
-        },
-        {
-            "slug": "comparatif-batteries-solaires-2026",
-            "title": "Meilleures batteries solaires 2026 : comparatif Huawei, Growatt, BYD, Pylontech",
-            "focus": "Meilleures batteries solaires 2026",
-            "url": "https://www.frexolaire.com/blog/comparatif-batteries-solaires-2026/"
-        },
-        {
-            "slug": "micro-onduleur-vs-onduleur-string",
-            "title": "Micro-onduleur ou onduleur string : guide de choix complet (2026)",
-            "focus": "micro-onduleur ou onduleur string",
-            "url": "https://www.frexolaire.com/blog/micro-onduleur-vs-onduleur-string/"
-        },
-        {
-            "slug": "abf-panneau-solaire-paris",
-            "title": "Architecte des Bâtiments de France et photovoltaïque : ce qui passe à Paris (et ce qui ne passe pas)",
-            "focus": "Architecte des Bâtiments de France",
-            "url": "https://www.frexolaire.com/blog/abf-panneau-solaire-paris/"
-        },
-        {
-            "slug": "autoconsommation-collective-enedis-cac",
-            "title": "Autoconsommation collective : comment fonctionne le contrat CAC d'Enedis",
-            "focus": "autoconsommation collective",
-            "url": "https://www.frexolaire.com/blog/autoconsommation-collective-enedis-cac/"
-        },
-        {
-            "slug": "voter-solaire-ag-copropriete",
-            "title": "Faire voter une installation solaire en AG de copropriété : la marche à suivre",
-            "focus": "installation solaire copropriété AG",
-            "url": "https://www.frexolaire.com/blog/voter-solaire-ag-copropriete/"
-        },
-        {
-            "slug": "suramortissement-photovoltaique",
-            "title": "Suramortissement et photovoltaïque : ce que dit l'article 39 decies en 2026",
-            "focus": "suramortissement photovoltaïque",
-            "url": "https://www.frexolaire.com/blog/suramortissement-photovoltaique/"
-        },
-        {
-            "slug": "maintenance-photovoltaique-entreprise",
-            "title": "Maintenance photovoltaïque pour entreprise : norme NF EN 62446-1 et bonnes pratiques",
-            "focus": "maintenance photovoltaïque entreprise",
-            "url": "https://www.frexolaire.com/blog/maintenance-photovoltaique-entreprise/"
-        },
-        {
-            "slug": "decarbonation-entreprise-solaire",
-            "title": "Décarboner son entreprise grâce au photovoltaïque : Bilan Carbone, scope 2, communication RSE",
-            "focus": "décarbonation entreprise photovoltaïque",
-            "url": "https://www.frexolaire.com/blog/decarbonation-entreprise-solaire/"
-        },
-        {
-            "slug": "loi-aper-2023-ombrieres-parking",
-            "title": "Loi APER 2023 sur les ombrières photovoltaïques : qui est concerné, quel calendrier",
-            "focus": "Loi APER 2023",
-            "url": "https://www.frexolaire.com/blog/loi-aper-2023-ombrieres-parking/"
-        },
-        {
-            "slug": "vendre-maison-panneaux-solaires",
-            "title": "Vendre sa maison équipée de panneaux solaires : démarches et plus-value",
-            "focus": "Vendre sa maison équipée",
-            "url": "https://www.frexolaire.com/blog/vendre-maison-panneaux-solaires/"
-        },
-        {
-            "slug": "panneaux-solaires-hiver",
-            "title": "Panneaux solaires l'hiver : production réelle, neige, gel et entretien",
-            "focus": "Panneaux solaires l'hiver",
-            "url": "https://www.frexolaire.com/blog/panneaux-solaires-hiver/"
-        },
-        {
-            "slug": "integration-bati-vs-surimposition",
-            "title": "Intégration au bâti ou surimposition : que choisir en 2026",
-            "focus": "Intégration au bâti",
-            "url": "https://www.frexolaire.com/blog/integration-bati-vs-surimposition/"
-        },
-        {
-            "slug": "panneaux-solaires-toit-tuile",
-            "title": "Installer des panneaux solaires sur toit en tuile : tout ce qu'il faut savoir",
-            "focus": "Installer des panneaux solaires",
-            "url": "https://www.frexolaire.com/blog/panneaux-solaires-toit-tuile/"
-        },
-        {
-            "slug": "credit-bail-solaire-vs-achat-vs-ppa",
-            "title": "Achat, leasing ou PPA solaire : quel financement choisir pour son installation entreprise",
-            "focus": "Achat, leasing ou PPA solaire",
-            "url": "https://www.frexolaire.com/blog/credit-bail-solaire-vs-achat-vs-ppa/"
-        },
-        {
-            "slug": "maprimerenov-photovoltaique",
-            "title": "MaPrimeRénov' et panneaux solaires : ce qui est vraiment éligible en 2026",
-            "focus": "MaPrimeRénov' panneaux solaires",
-            "url": "https://www.frexolaire.com/blog/maprimerenov-photovoltaique/"
-        },
-        {
-            "slug": "tarif-achat-edf-oa-2026",
-            "title": "Tarif d'achat EDF OA 2026 : le nouveau tarif unique de 1,1 c€/kWh expliqué",
-            "focus": "Tarif d'achat EDF OA 2026",
-            "url": "https://www.frexolaire.com/blog/tarif-achat-edf-oa-2026/"
-        },
-        {
-            "slug": "aides-panneaux-solaires-2026",
-            "title": "Aides panneaux solaires 2026 : ce qui existe encore après la fin de la prime (guide complet)",
-            "focus": "Aides panneaux solaires 2026",
-            "url": "https://www.frexolaire.com/blog/aides-panneaux-solaires-2026/"
-        },
-        {
-            "slug": "tva-5-5-panneaux-solaires",
-            "title": "TVA à 5,5 % sur les panneaux solaires depuis le 1er octobre 2025 : conditions et démarches",
-            "focus": "TVA 5,5 % panneaux solaires",
-            "url": "https://www.frexolaire.com/blog/tva-5-5-panneaux-solaires/"
-        },
-        {
-            "slug": "combien-coute-installation-panneaux-solaires-2026-france",
-            "title": "Combien coûte une installation de panneaux solaires en 2026 en France ?",
-            "focus": "prix installation panneaux solaires",
-            "url": "https://www.frexolaire.com/blog/combien-coute-installation-panneaux-solaires-2026-france/"
-        },
-        {
-            "slug": "triphase-monophase-panneaux-solaires",
-            "title": "Triphasé ou monophasé pour panneaux solaires : guide de choix",
-            "focus": "triphasé ou monophasé panneaux solaires",
-            "url": "https://www.frexolaire.com/blog/triphase-monophase-panneaux-solaires/"
-        },
-        {
-            "slug": "smart-home-energetique-pv",
-            "title": "Smart home énergétique : optimiser son photovoltaïque en 2026",
-            "focus": "smart home énergétique",
-            "url": "https://www.frexolaire.com/blog/smart-home-energetique-pv/"
-        },
-        {
-            "slug": "ballon-thermodynamique-photovoltaique",
-            "title": "Ballon thermodynamique + photovoltaïque : ECS solaire optimisée",
-            "focus": "ballon thermodynamique photovoltaïque",
-            "url": "https://www.frexolaire.com/blog/ballon-thermodynamique-photovoltaique/"
-        },
-        {
-            "slug": "pompe-chaleur-photovoltaique-combo",
-            "title": "Pompe à chaleur + photovoltaïque : le combo gagnant 2026",
-            "focus": "pompe à chaleur photovoltaïque",
-            "url": "https://www.frexolaire.com/blog/pompe-chaleur-photovoltaique-combo/"
-        },
-        {
-            "slug": "maison-hors-reseau-autonomie-2026",
-            "title": "Maison hors réseau : autonomie 100 % en 2026",
-            "focus": "maison hors réseau",
-            "url": "https://www.frexolaire.com/blog/maison-hors-reseau-autonomie-2026/"
-        },
-        {
-            "slug": "solaire-mobil-home-camping-car-bateau",
-            "title": "Solaire pour mobil-home, camping-car et bateau : guide complet 2026",
-            "focus": "solaire mobil-home",
-            "url": "https://www.frexolaire.com/blog/solaire-mobil-home-camping-car-bateau/"
-        },
-        {
-            "slug": "installation-solaire-off-grid-autonomie",
-            "title": "Installation solaire off-grid : autonomie totale en 2026",
-            "focus": "Installation solaire off-grid",
-            "url": "https://www.frexolaire.com/blog/installation-solaire-off-grid-autonomie/"
-        },
-        {
-            "slug": "recyclage-panneaux-solaires-fin-vie-france",
-            "title": "Recyclage des panneaux solaires en fin de vie : la filière française 2026",
-            "focus": "Recyclage des panneaux solaires",
-            "url": "https://www.frexolaire.com/blog/recyclage-panneaux-solaires-fin-vie-france/"
-        },
-        {
-            "slug": "panne-onduleur-solaire-symptomes-causes",
-            "title": "Pannes onduleur solaire : symptômes, causes, remplacement",
-            "focus": "Pannes onduleur solaire",
-            "url": "https://www.frexolaire.com/blog/panne-onduleur-solaire-symptomes-causes/"
-        },
-        {
-            "slug": "nettoyage-panneaux-solaires-frequence-methode",
-            "title": "Nettoyage panneaux solaires : fréquence et méthode",
-            "focus": "Nettoyage panneaux solaires",
-            "url": "https://www.frexolaire.com/blog/nettoyage-panneaux-solaires-frequence-methode/"
-        },
-        {
-            "slug": "diagnostic-panne-photovoltaique",
-            "title": "Diagnostic panne photovoltaïque : guide pas-à-pas",
-            "focus": "Diagnostic panne photovoltaïque",
-            "url": "https://www.frexolaire.com/blog/diagnostic-panne-photovoltaique/"
-        },
-        {
-            "slug": "bornes-irve-copropriete-2026",
-            "title": "Bornes IRVE en copropriété : démarches et financement 2026",
-            "focus": "Bornes IRVE en copropriété",
-            "url": "https://www.frexolaire.com/blog/bornes-irve-copropriete-2026/"
-        },
-        {
-            "slug": "borne-irve-residentielle-2026",
-            "title": "Borne IRVE résidentielle : prix, modèles, installation en 2026",
-            "focus": "Borne IRVE résidentielle",
-            "url": "https://www.frexolaire.com/blog/borne-irve-residentielle-2026/"
-        },
-        {
-            "slug": "recharger-voiture-electrique-panneaux-solaires",
-            "title": "Recharger sa voiture électrique avec ses panneaux solaires : guide complet",
-            "focus": "Recharger sa voiture électrique",
-            "url": "https://www.frexolaire.com/blog/recharger-voiture-electrique-panneaux-solaires/"
-        },
-        {
-            "slug": "photovoltaique-station-service-irve",
-            "title": "Photovoltaïque pour stations-service et IRVE : double opportunité 2026",
-            "focus": "Photovoltaïque pour stations-service",
-            "url": "https://www.frexolaire.com/blog/photovoltaique-station-service-irve/"
-        },
-        {
-            "slug": "photovoltaique-collectivites-locales",
-            "title": "Photovoltaïque pour collectivités locales : communes et intercommunalités",
-            "focus": "Photovoltaïque pour collectivités locales",
-            "url": "https://www.frexolaire.com/blog/photovoltaique-collectivites-locales/"
-        },
-        {
-            "slug": "photovoltaique-entrepots-logistiques",
-            "title": "Photovoltaïque pour entrepôts logistiques : le potentiel toiture inexploité",
-            "focus": "Photovoltaïque pour entrepôts logistiques",
-            "url": "https://www.frexolaire.com/blog/photovoltaique-entrepots-logistiques/"
-        },
-        {
-            "slug": "photovoltaique-hotel-gite-camping",
-            "title": "Photovoltaïque pour hôtel, gîte et camping : optimisation usage saisonnier",
-            "focus": "Photovoltaïque pour hôtel",
-            "url": "https://www.frexolaire.com/blog/photovoltaique-hotel-gite-camping/"
-        },
-        {
-            "slug": "agrivoltaisme-exploitation-agricole",
-            "title": "Photovoltaïque pour exploitation agricole : agrivoltaïsme et solaire de complément",
-            "focus": "Photovoltaïque pour exploitation agricole",
-            "url": "https://www.frexolaire.com/blog/agrivoltaisme-exploitation-agricole/"
-        },
-        {
-            "slug": "top-10-installateurs-photovoltaiques-france-2026",
-            "title": "Choisir son installateur photovoltaïque en 2026 : les modèles du marché",
-            "focus": "choisir son installateur photovoltaïque",
-            "url": "https://www.frexolaire.com/blog/top-10-installateurs-photovoltaiques-france-2026/"
-        },
-        {
-            "slug": "enphase-iq8-vs-huawei-sun2000",
-            "title": "Enphase IQ8 vs Huawei SUN2000 : quel onduleur en 2026",
-            "focus": "Enphase IQ8 vs Huawei SUN2000",
-            "url": "https://www.frexolaire.com/blog/enphase-iq8-vs-huawei-sun2000/"
-        },
-        {
-            "slug": "jinko-vs-dmegc-vs-ja-solar",
-            "title": "Jinko vs DMEGC vs JA Solar : comparatif panneaux 2026",
-            "focus": "Jinko vs DMEGC vs JA",
-            "url": "https://www.frexolaire.com/blog/jinko-vs-dmegc-vs-ja-solar/"
-        },
-        {
-            "slug": "panneaux-solaires-bretagne",
-            "title": "Panneaux solaires en Bretagne : la vérité sur le rendement",
-            "focus": "panneaux solaires Bretagne",
-            "url": "https://www.frexolaire.com/blog/panneaux-solaires-bretagne/"
-        },
-        {
-            "slug": "panneaux-solaires-marseille-paca",
-            "title": "Panneaux solaires à Marseille et en région PACA : guide complet 2026",
-            "focus": "Panneaux solaires à Marseille",
-            "url": "https://www.frexolaire.com/blog/panneaux-solaires-marseille-paca/"
-        },
-        {
-            "slug": "panneaux-solaires-paris-guide-2026",
-            "title": "Installation de panneaux solaires à Paris en 2026 : ABF, prix, rentabilité",
-            "focus": "Installation de panneaux solaires",
-            "url": "https://www.frexolaire.com/blog/panneaux-solaires-paris-guide-2026/"
-        },
-        {
-            "slug": "test-kit-solaire-balcon-2026",
-            "title": "Test des kits solaires balcon en 2026 : Beem vs Sunology vs Sunethic",
-            "focus": "Test des kits solaires balcon",
-            "url": "https://www.frexolaire.com/blog/test-kit-solaire-balcon-2026/"
-        },
-        {
-            "slug": "securite-electrique-installation-solaire",
-            "title": "Sécurité électrique des installations photovoltaïques : DC, arc électrique, AFCI",
-            "focus": "Sécurité électrique des installations photovoltaïques",
-            "url": "https://www.frexolaire.com/blog/securite-electrique-installation-solaire/"
-        },
-        {
-            "slug": "garantie-decennale-photovoltaique",
-            "title": "Garantie décennale photovoltaïque : ce qu'elle couvre, ce qu'elle ne couvre pas",
-            "focus": "Garantie décennale photovoltaïque",
-            "url": "https://www.frexolaire.com/blog/garantie-decennale-photovoltaique/"
-        },
-        {
-            "slug": "onduleur-hybride-comparatif-2026",
-            "title": "Comparatif des meilleurs onduleurs hybrides solaires en 2026",
-            "focus": "onduleur hybride",
-            "url": "https://www.frexolaire.com/blog/onduleur-hybride-comparatif-2026/"
-        },
-        {
-            "slug": "production-panneau-solaire-region-france",
-            "title": "Production solaire en kWh/kWc/an par région française : carte 2026",
-            "focus": "production solaire par région",
-            "url": "https://www.frexolaire.com/blog/production-panneau-solaire-region-france/"
-        },
-        {
-            "slug": "panneaux-tiger-neo-topcon",
-            "title": "Panneaux Tiger Neo (TOPCon) Jinko : performance, garantie, comparatif",
-            "focus": "Jinko Tiger Neo",
-            "url": "https://www.frexolaire.com/blog/panneaux-tiger-neo-topcon/"
-        },
-        {
-            "slug": "panneaux-bifaciaux",
-            "title": "Panneaux solaires bifaciaux : gain réel, surcoût et cas d'usage",
-            "focus": "panneaux solaires bifaciaux",
-            "url": "https://www.frexolaire.com/blog/panneaux-bifaciaux/"
-        },
-        {
-            "slug": "recyclage-bilan-carbone-panneaux-solaires",
-            "title": "Recyclage et bilan carbone des panneaux solaires : les vrais chiffres",
-            "focus": "recyclage panneaux solaires",
-            "url": "https://www.frexolaire.com/blog/recyclage-bilan-carbone-panneaux-solaires/"
-        },
-        {
-            "slug": "autoconsommation-collective-copropriete-idf-2026",
-            "title": "Autoconsommation collective en copropriété : ce qui change avec le décret du 26 juin 2026",
-            "focus": "autoconsommation collective copropriété",
-            "url": "https://www.frexolaire.com/blog/autoconsommation-collective-copropriete-idf-2026/"
-        },
-        {
-            "slug": "panneaux-solaires-paris-abf-declaration-prealable",
-            "title": "Panneaux solaires à Paris et en zone ABF : autorisations, délais et pièges à éviter",
-            "focus": "panneaux solaires Paris",
-            "url": "https://www.frexolaire.com/blog/panneaux-solaires-paris-abf-declaration-prealable/"
-        },
-        {
-            "slug": "fonctionnement-solaire-photovoltaique",
-            "title": "Fonctionnement solaire photovoltaïque : de la cellule au tableau électrique",
-            "focus": "fonctionnement solaire photovoltaïque",
-            "url": "https://www.frexolaire.com/blog/fonctionnement-solaire-photovoltaique/"
-        }
-    ]
-}
+[
+    {
+        "slug": "centrale-photovoltaique",
+        "title": "Centrale photovoltaïque : définition, types et coûts 2026",
+        "focus": "centrale photovoltaïque"
+    },
+    {
+        "slug": "assurance-habitation-panneaux-solaires",
+        "title": "Panneaux solaires et assurance habitation : le guide",
+        "focus": "assurance habitation panneaux solaires"
+    },
+    {
+        "slug": "consuel-photovoltaique-2026",
+        "title": "Consuel photovoltaïque 2026 : obtenir son attestation",
+        "focus": "consuel photovoltaïque"
+    },
+    {
+        "slug": "panneaux-solaires-corse-2026",
+        "title": "Panneaux solaires en Corse : guide local 2026",
+        "focus": "Panneaux solaires en Corse"
+    },
+    {
+        "slug": "panneaux-solaires-montpellier-occitanie",
+        "title": "Panneaux solaires à Montpellier et en Occitanie : guide local 2026",
+        "focus": "Panneaux solaires à Montpellier"
+    },
+    {
+        "slug": "panneaux-solaires-nice-cote-azur",
+        "title": "Panneaux solaires à Nice et sur la Côte d'Azur : guide local 2026",
+        "focus": "Panneaux solaires à Nice"
+    },
+    {
+        "slug": "panneaux-solaires-reims-champagne",
+        "title": "Panneaux solaires à Reims et en Champagne : guide local 2026",
+        "focus": "Panneaux solaires à Reims"
+    },
+    {
+        "slug": "panneaux-solaires-dijon-bourgogne",
+        "title": "Panneaux solaires à Dijon et en Bourgogne-Franche-Comté : guide local 2026",
+        "focus": "Panneaux solaires à Dijon"
+    },
+    {
+        "slug": "panneaux-solaires-lille-hauts-de-france",
+        "title": "Panneaux solaires à Lille et dans les Hauts-de-France : guide local 2026",
+        "focus": "Panneaux solaires à Lille"
+    },
+    {
+        "slug": "panneaux-solaires-strasbourg-grand-est",
+        "title": "Panneaux solaires à Strasbourg et dans le Grand Est : guide local 2026",
+        "focus": "Panneaux solaires à Strasbourg"
+    },
+    {
+        "slug": "panneaux-solaires-nantes-pays-de-la-loire",
+        "title": "Panneaux solaires à Nantes et en Pays-de-la-Loire : guide local 2026",
+        "focus": "Panneaux solaires à Nantes"
+    },
+    {
+        "slug": "panneaux-solaires-bordeaux-nouvelle-aquitaine",
+        "title": "Panneaux solaires à Bordeaux et en Nouvelle-Aquitaine : guide local 2026",
+        "focus": "Panneaux solaires à Bordeaux"
+    },
+    {
+        "slug": "panneaux-solaires-toulouse-haute-garonne",
+        "title": "Panneaux solaires à Toulouse et en Haute-Garonne : guide local 2026",
+        "focus": "Panneaux solaires à Toulouse"
+    },
+    {
+        "slug": "comparatif-batterie-virtuelle-2026",
+        "title": "Comparatif batterie virtuelle 2026 : MyLight, Urban Solar et OHM au banc d'essai",
+        "focus": "comparatif batterie virtuelle"
+    },
+    {
+        "slug": "batterie-virtuelle-urbansolar",
+        "title": "Batterie virtuelle UrbanSolar : ce qu'elle rapporte vraiment en 2026",
+        "focus": "batterie virtuelle UrbanSolar"
+    },
+    {
+        "slug": "batterie-virtuelle-mylight",
+        "title": "Batterie virtuelle MyLight : fonctionnement, tarifs et limites en 2026",
+        "focus": "batterie virtuelle MyLight"
+    },
+    {
+        "slug": "faut-il-installer-panneaux-solaires-france-2026",
+        "title": "Faut-il vraiment installer des panneaux solaires en France en 2026 ?",
+        "focus": "installer des panneaux solaires"
+    },
+    {
+        "slug": "voiture-electrique-panneaux-solaires-economies-5-ans",
+        "title": "Voiture électrique avec panneaux solaires : économies cumulées sur 5 ans",
+        "focus": "Voiture électrique avec panneaux solaires"
+    },
+    {
+        "slug": "panneaux-solaires-lyon-aura",
+        "title": "Installer des panneaux solaires à Lyon et en Auvergne-Rhône-Alpes en 2026",
+        "focus": "panneaux solaires Lyon"
+    },
+    {
+        "slug": "economies-panneaux-solaires-copropriete",
+        "title": "Combien rapportent vraiment les panneaux solaires en copropriété : étude de cas",
+        "focus": "panneaux solaires copropriété"
+    },
+    {
+        "slug": "ppa-solaire-entreprise",
+        "title": "PPA solaire (Power Purchase Agreement) en France : montage, fiscalité, durée",
+        "focus": "PPA solaire (Power Purchase Agreement)"
+    },
+    {
+        "slug": "batterie-physique-stockage-virtuel-comparatif",
+        "title": "Batterie physique ou stockage virtuel : le vrai comparatif 2026",
+        "focus": "stockage virtuel"
+    },
+    {
+        "slug": "maprimerenov-panneaux-solaires-verite",
+        "title": "MaPrimeRénov' et panneaux solaires : pourquoi le photovoltaïque n'y a pas droit",
+        "focus": "maprimerenov panneaux solaires"
+    },
+    {
+        "slug": "arnaques-demarchage-solaire-signaux-alerte",
+        "title": "Démarchage solaire : les 7 signaux d'une arnaque (et comment vérifier un devis)",
+        "focus": "arnaque démarchage solaire"
+    },
+    {
+        "slug": "fin-prime-autoconsommation-rachat-1-centime-2026",
+        "title": "Fin de la prime et rachat à 1,1 centime : le solaire est-il encore rentable en 2026 ?",
+        "focus": "rentabilité panneaux solaires 2026"
+    },
+    {
+        "slug": "photovoltaique-france-2027-tendances",
+        "title": "Photovoltaïque en France 2027 : tendances, prix, technologies (article pillar)",
+        "focus": "photovoltaïque en France 2027"
+    },
+    {
+        "slug": "rentabilite-installation-photovoltaique-france",
+        "title": "Quelle est la rentabilité d'une installation photovoltaïque en France ?",
+        "focus": "rentabilité installation photovoltaïque"
+    },
+    {
+        "slug": "photovoltaique-bureaux-tertiaire",
+        "title": "Photovoltaïque pour bureaux et tertiaire : conformité loi APER",
+        "focus": "Photovoltaïque pour bureaux"
+    },
+    {
+        "slug": "photovoltaique-maison-secondaire",
+        "title": "Photovoltaïque pour maison secondaire : guide complet 2026",
+        "focus": "Photovoltaïque pour maison secondaire"
+    },
+    {
+        "slug": "eco-ptz-financement-bancaire-photovoltaique",
+        "title": "Éco-PTZ et financement bancaire vert pour le photovoltaïque en 2026",
+        "focus": "éco-PTZ photovoltaïque"
+    },
+    {
+        "slug": "coup-de-pouce-cee-photovoltaique-2026",
+        "title": "CEE et photovoltaïque 2026 : ce que les certificats financent vraiment",
+        "focus": "CEE photovoltaïque"
+    },
+    {
+        "slug": "panneaux-solaires-versailles-saint-cloud-boulogne",
+        "title": "Panneaux solaires à Versailles, Saint-Cloud et Boulogne-Billancourt : ABF et rentabilité",
+        "focus": "panneaux solaires Versailles"
+    },
+    {
+        "slug": "optimiseur-puissance-solaire",
+        "title": "Optimiseur de puissance solaire (Tigo, SolarEdge) : utile ou marketing",
+        "focus": "optimiseur de puissance solaire"
+    },
+    {
+        "slug": "ombriere-photovoltaique-entreprise",
+        "title": "Ombrière photovoltaïque entreprise : prix, dimensionnement et ROI en 2026",
+        "focus": "Ombrière photovoltaïque entreprise"
+    },
+    {
+        "slug": "batterie-panneau-solaire-utile",
+        "title": "Faut-il vraiment une batterie pour des panneaux solaires en 2026 (calcul ROI)",
+        "focus": "Une batterie pour des panneaux"
+    },
+    {
+        "slug": "3-6-9-kwc-quelle-puissance-choisir",
+        "title": "3, 6 ou 9 kWc : quelle puissance choisir pour vos panneaux solaires",
+        "focus": "3, 6 ou 9 kWc"
+    },
+    {
+        "slug": "prix-installation-6-kwc-2026",
+        "title": "Prix d'une installation photovoltaïque 6 kWc en 2026 : décomposition complète",
+        "focus": "Prix d'une installation photovoltaïque 6"
+    },
+    {
+        "slug": "combien-rapportent-panneaux-solaires-autoconsommation",
+        "title": "Combien rapportent vraiment des panneaux solaires en 2026 (calcul détaillé)",
+        "focus": "Rapportent vraiment des panneaux solaires"
+    },
+    {
+        "slug": "aides-photovoltaique-entreprises-2026",
+        "title": "Aides photovoltaïque pour entreprises 2026 : ce qui reste après la réforme",
+        "focus": "Aides photovoltaïque pour entreprises 2026"
+    },
+    {
+        "slug": "aides-panneaux-solaires-ile-de-france",
+        "title": "Aides panneaux solaires en Île-de-France 2026 : ce qui existe vraiment",
+        "focus": "Aides panneaux solaires Île-de-France"
+    },
+    {
+        "slug": "prime-autoconsommation-2026",
+        "title": "Prime à l'autoconsommation 2026 : supprimée depuis le 5 juin (droits acquis et alternatives)",
+        "focus": "Prime à l'autoconsommation 2026"
+    },
+    {
+        "slug": "copropriete-mixte-residence-commerce-pv",
+        "title": "Copropriétés mixtes (résidence + commerces) : optimisation photovoltaïque",
+        "focus": "Copropriétés mixtes (résidence + commerces)"
+    },
+    {
+        "slug": "ppt-copropriete-photovoltaique",
+        "title": "Plan Pluriannuel de Travaux (PPT) et photovoltaïque",
+        "focus": "Plan Pluriannuel de Travaux (PPT)"
+    },
+    {
+        "slug": "audit-energetique-copropriete-photovoltaique",
+        "title": "Audit énergétique copropriété : préalable indispensable au projet photovoltaïque",
+        "focus": "Audit énergétique copropriété"
+    },
+    {
+        "slug": "autoconsommation-collective-elargie-quartier",
+        "title": "ACC élargie : autoconsommation collective entre quartiers",
+        "focus": "ACC élargie"
+    },
+    {
+        "slug": "photovoltaique-piscine-chauffage",
+        "title": "Photovoltaïque pour piscine : autoconsommer pour chauffer et filtrer",
+        "focus": "Photovoltaïque pour piscine"
+    },
+    {
+        "slug": "pv-maison-ancienne",
+        "title": "Photovoltaïque pour maison ancienne : guide pratique",
+        "focus": "Photovoltaïque pour maison ancienne"
+    },
+    {
+        "slug": "pv-maison-passive-re2020",
+        "title": "Photovoltaïque pour maison passive ou RE2020 : neutralité énergétique",
+        "focus": "Photovoltaïque pour maison passive"
+    },
+    {
+        "slug": "panneaux-solaires-toiture-ardoise",
+        "title": "Panneaux solaires sur toiture ardoise : guide complet 2026",
+        "focus": "Panneaux solaires sur toiture ardoise"
+    },
+    {
+        "slug": "panneaux-solaires-toit-terrasse-plat",
+        "title": "Panneaux solaires sur toit-terrasse plat : guide complet 2026",
+        "focus": "Panneaux solaires sur toit-terrasse plat"
+    },
+    {
+        "slug": "credit-impot-photovoltaique-2026",
+        "title": "Crédit d'impôt photovoltaïque : ce qui existe (et ce qui n'existe pas)",
+        "focus": "Crédit d'impôt photovoltaïque"
+    },
+    {
+        "slug": "aides-copropriete-photovoltaique-2026",
+        "title": "Aides photovoltaïque copropriété 2026 : le panorama honnête",
+        "focus": "Aides photovoltaïque copropriété 2026"
+    },
+    {
+        "slug": "refonte-tarifaire-s22-2026",
+        "title": "Refonte tarifaire photovoltaïque 2026 : ce qui change depuis le 5 juin",
+        "focus": "refonte tarifaire photovoltaïque 2026"
+    },
+    {
+        "slug": "kit-solaire-3-kwc-comparatif",
+        "title": "Top 5 des kits solaires 3 kWc en France en 2026",
+        "focus": "Top 5 des kits solaires"
+    },
+    {
+        "slug": "installer-panneaux-solaires-soi-meme",
+        "title": "Installer ses panneaux solaires soi-même en 2026 : ce que vous perdez",
+        "focus": "Installer ses panneaux solaires soi-même"
+    },
+    {
+        "slug": "kit-solaire-plug-and-play",
+        "title": "Kit solaire plug & play (balcon, jardin) en 2026 : avis honnête",
+        "focus": "Kit solaire plug & play"
+    },
+    {
+        "slug": "lfp-vs-lithium-ion-vs-plomb-batterie-solaire",
+        "title": "LFP, lithium-ion ou plomb : quelle technologie pour une batterie solaire en 2026",
+        "focus": "LFP, lithium-ion ou plomb"
+    },
+    {
+        "slug": "batterie-virtuelle",
+        "title": "Batterie virtuelle : comment ça marche et pour qui c'est intéressant en 2026",
+        "focus": "batterie virtuelle photovoltaïque"
+    },
+    {
+        "slug": "dimensionner-batterie-solaire",
+        "title": "Dimensionner sa batterie solaire : la méthode complète",
+        "focus": "Dimensionner sa batterie solaire"
+    },
+    {
+        "slug": "comparatif-batteries-solaires-2026",
+        "title": "Meilleures batteries solaires 2026 : comparatif Huawei, Growatt, BYD, Pylontech",
+        "focus": "Meilleures batteries solaires 2026"
+    },
+    {
+        "slug": "micro-onduleur-vs-onduleur-string",
+        "title": "Micro-onduleur ou onduleur string : guide de choix complet (2026)",
+        "focus": "micro-onduleur ou onduleur string"
+    },
+    {
+        "slug": "abf-panneau-solaire-paris",
+        "title": "Architecte des Bâtiments de France et photovoltaïque : ce qui passe à Paris (et ce qui ne passe pas)",
+        "focus": "Architecte des Bâtiments de France"
+    },
+    {
+        "slug": "autoconsommation-collective-enedis-cac",
+        "title": "Autoconsommation collective : comment fonctionne le contrat CAC d'Enedis",
+        "focus": "autoconsommation collective"
+    },
+    {
+        "slug": "voter-solaire-ag-copropriete",
+        "title": "Faire voter une installation solaire en AG de copropriété : la marche à suivre",
+        "focus": "installation solaire copropriété AG"
+    },
+    {
+        "slug": "suramortissement-photovoltaique",
+        "title": "Suramortissement et photovoltaïque : ce que dit l'article 39 decies en 2026",
+        "focus": "suramortissement photovoltaïque"
+    },
+    {
+        "slug": "maintenance-photovoltaique-entreprise",
+        "title": "Maintenance photovoltaïque pour entreprise : norme NF EN 62446-1 et bonnes pratiques",
+        "focus": "maintenance photovoltaïque entreprise"
+    },
+    {
+        "slug": "decarbonation-entreprise-solaire",
+        "title": "Décarboner son entreprise grâce au photovoltaïque : Bilan Carbone, scope 2, communication RSE",
+        "focus": "décarbonation entreprise photovoltaïque"
+    },
+    {
+        "slug": "loi-aper-2023-ombrieres-parking",
+        "title": "Loi APER 2023 sur les ombrières photovoltaïques : qui est concerné, quel calendrier",
+        "focus": "Loi APER 2023"
+    },
+    {
+        "slug": "vendre-maison-panneaux-solaires",
+        "title": "Vendre sa maison équipée de panneaux solaires : démarches et plus-value",
+        "focus": "Vendre sa maison équipée"
+    },
+    {
+        "slug": "panneaux-solaires-hiver",
+        "title": "Panneaux solaires l'hiver : production réelle, neige, gel et entretien",
+        "focus": "Panneaux solaires l'hiver"
+    },
+    {
+        "slug": "integration-bati-vs-surimposition",
+        "title": "Intégration au bâti ou surimposition : que choisir en 2026",
+        "focus": "Intégration au bâti"
+    },
+    {
+        "slug": "panneaux-solaires-toit-tuile",
+        "title": "Installer des panneaux solaires sur toit en tuile : tout ce qu'il faut savoir",
+        "focus": "Installer des panneaux solaires"
+    },
+    {
+        "slug": "credit-bail-solaire-vs-achat-vs-ppa",
+        "title": "Achat, leasing ou PPA solaire : quel financement choisir pour son installation entreprise",
+        "focus": "Achat, leasing ou PPA solaire"
+    },
+    {
+        "slug": "maprimerenov-photovoltaique",
+        "title": "MaPrimeRénov' et panneaux solaires : ce qui est vraiment éligible en 2026",
+        "focus": "MaPrimeRénov' panneaux solaires"
+    },
+    {
+        "slug": "tarif-achat-edf-oa-2026",
+        "title": "Tarif d'achat EDF OA 2026 : le nouveau tarif unique de 1,1 c€\/kWh expliqué",
+        "focus": "Tarif d'achat EDF OA 2026"
+    },
+    {
+        "slug": "aides-panneaux-solaires-2026",
+        "title": "Aides panneaux solaires 2026 : ce qui existe encore après la fin de la prime (guide complet)",
+        "focus": "Aides panneaux solaires 2026"
+    },
+    {
+        "slug": "tva-5-5-panneaux-solaires",
+        "title": "TVA à 5,5 % sur les panneaux solaires depuis le 1er octobre 2025 : conditions et démarches",
+        "focus": "TVA 5,5 % panneaux solaires"
+    },
+    {
+        "slug": "combien-coute-installation-panneaux-solaires-2026-france",
+        "title": "Combien coûte une installation de panneaux solaires en 2026 en France ?",
+        "focus": "prix installation panneaux solaires"
+    },
+    {
+        "slug": "triphase-monophase-panneaux-solaires",
+        "title": "Triphasé ou monophasé pour panneaux solaires : guide de choix",
+        "focus": "triphasé ou monophasé panneaux solaires"
+    },
+    {
+        "slug": "smart-home-energetique-pv",
+        "title": "Smart home énergétique : optimiser son photovoltaïque en 2026",
+        "focus": "smart home énergétique"
+    },
+    {
+        "slug": "ballon-thermodynamique-photovoltaique",
+        "title": "Ballon thermodynamique + photovoltaïque : ECS solaire optimisée",
+        "focus": "ballon thermodynamique photovoltaïque"
+    },
+    {
+        "slug": "pompe-chaleur-photovoltaique-combo",
+        "title": "Pompe à chaleur + photovoltaïque : le combo gagnant 2026",
+        "focus": "pompe à chaleur photovoltaïque"
+    },
+    {
+        "slug": "maison-hors-reseau-autonomie-2026",
+        "title": "Maison hors réseau : autonomie 100 % en 2026",
+        "focus": "maison hors réseau"
+    },
+    {
+        "slug": "solaire-mobil-home-camping-car-bateau",
+        "title": "Solaire pour mobil-home, camping-car et bateau : guide complet 2026",
+        "focus": "solaire mobil-home"
+    },
+    {
+        "slug": "installation-solaire-off-grid-autonomie",
+        "title": "Installation solaire off-grid : autonomie totale en 2026",
+        "focus": "Installation solaire off-grid"
+    },
+    {
+        "slug": "recyclage-panneaux-solaires-fin-vie-france",
+        "title": "Recyclage des panneaux solaires en fin de vie : la filière française 2026",
+        "focus": "Recyclage des panneaux solaires"
+    },
+    {
+        "slug": "panne-onduleur-solaire-symptomes-causes",
+        "title": "Pannes onduleur solaire : symptômes, causes, remplacement",
+        "focus": "Pannes onduleur solaire"
+    },
+    {
+        "slug": "nettoyage-panneaux-solaires-frequence-methode",
+        "title": "Nettoyage panneaux solaires : fréquence et méthode",
+        "focus": "Nettoyage panneaux solaires"
+    },
+    {
+        "slug": "diagnostic-panne-photovoltaique",
+        "title": "Diagnostic panne photovoltaïque : guide pas-à-pas",
+        "focus": "Diagnostic panne photovoltaïque"
+    },
+    {
+        "slug": "bornes-irve-copropriete-2026",
+        "title": "Bornes IRVE en copropriété : démarches et financement 2026",
+        "focus": "Bornes IRVE en copropriété"
+    },
+    {
+        "slug": "borne-irve-residentielle-2026",
+        "title": "Borne IRVE résidentielle : prix, modèles, installation en 2026",
+        "focus": "Borne IRVE résidentielle"
+    },
+    {
+        "slug": "recharger-voiture-electrique-panneaux-solaires",
+        "title": "Recharger sa voiture électrique avec ses panneaux solaires : guide complet",
+        "focus": "Recharger sa voiture électrique"
+    },
+    {
+        "slug": "photovoltaique-station-service-irve",
+        "title": "Photovoltaïque pour stations-service et IRVE : double opportunité 2026",
+        "focus": "Photovoltaïque pour stations-service"
+    },
+    {
+        "slug": "photovoltaique-collectivites-locales",
+        "title": "Photovoltaïque pour collectivités locales : communes et intercommunalités",
+        "focus": "Photovoltaïque pour collectivités locales"
+    },
+    {
+        "slug": "photovoltaique-entrepots-logistiques",
+        "title": "Photovoltaïque pour entrepôts logistiques : le potentiel toiture inexploité",
+        "focus": "Photovoltaïque pour entrepôts logistiques"
+    },
+    {
+        "slug": "photovoltaique-hotel-gite-camping",
+        "title": "Photovoltaïque pour hôtel, gîte et camping : optimisation usage saisonnier",
+        "focus": "Photovoltaïque pour hôtel"
+    },
+    {
+        "slug": "agrivoltaisme-exploitation-agricole",
+        "title": "Photovoltaïque pour exploitation agricole : agrivoltaïsme et solaire de complément",
+        "focus": "Photovoltaïque pour exploitation agricole"
+    },
+    {
+        "slug": "top-10-installateurs-photovoltaiques-france-2026",
+        "title": "Choisir son installateur photovoltaïque en 2026 : les modèles du marché",
+        "focus": "choisir son installateur photovoltaïque"
+    },
+    {
+        "slug": "enphase-iq8-vs-huawei-sun2000",
+        "title": "Enphase IQ8 vs Huawei SUN2000 : quel onduleur en 2026",
+        "focus": "Enphase IQ8 vs Huawei SUN2000"
+    },
+    {
+        "slug": "jinko-vs-dmegc-vs-ja-solar",
+        "title": "Jinko vs DMEGC vs JA Solar : comparatif panneaux 2026",
+        "focus": "Jinko vs DMEGC vs JA"
+    },
+    {
+        "slug": "panneaux-solaires-bretagne",
+        "title": "Panneaux solaires en Bretagne : la vérité sur le rendement",
+        "focus": "panneaux solaires Bretagne"
+    },
+    {
+        "slug": "panneaux-solaires-marseille-paca",
+        "title": "Panneaux solaires à Marseille et en région PACA : guide complet 2026",
+        "focus": "Panneaux solaires à Marseille"
+    },
+    {
+        "slug": "panneaux-solaires-paris-guide-2026",
+        "title": "Installation de panneaux solaires à Paris en 2026 : ABF, prix, rentabilité",
+        "focus": "Installation de panneaux solaires"
+    },
+    {
+        "slug": "test-kit-solaire-balcon-2026",
+        "title": "Test des kits solaires balcon en 2026 : Beem vs Sunology vs Sunethic",
+        "focus": "Test des kits solaires balcon"
+    },
+    {
+        "slug": "securite-electrique-installation-solaire",
+        "title": "Sécurité électrique des installations photovoltaïques : DC, arc électrique, AFCI",
+        "focus": "Sécurité électrique des installations photovoltaïques"
+    },
+    {
+        "slug": "garantie-decennale-photovoltaique",
+        "title": "Garantie décennale photovoltaïque : ce qu'elle couvre, ce qu'elle ne couvre pas",
+        "focus": "Garantie décennale photovoltaïque"
+    },
+    {
+        "slug": "onduleur-hybride-comparatif-2026",
+        "title": "Comparatif des meilleurs onduleurs hybrides solaires en 2026",
+        "focus": "onduleur hybride"
+    },
+    {
+        "slug": "production-panneau-solaire-region-france",
+        "title": "Production solaire en kWh\/kWc\/an par région française : carte 2026",
+        "focus": "production solaire par région"
+    },
+    {
+        "slug": "panneaux-tiger-neo-topcon",
+        "title": "Panneaux Tiger Neo (TOPCon) Jinko : performance, garantie, comparatif",
+        "focus": "Jinko Tiger Neo"
+    },
+    {
+        "slug": "panneaux-bifaciaux",
+        "title": "Panneaux solaires bifaciaux : gain réel, surcoût et cas d'usage",
+        "focus": "panneaux solaires bifaciaux"
+    },
+    {
+        "slug": "recyclage-bilan-carbone-panneaux-solaires",
+        "title": "Recyclage et bilan carbone des panneaux solaires : les vrais chiffres",
+        "focus": "recyclage panneaux solaires"
+    },
+    {
+        "slug": "autoconsommation-collective-copropriete-idf-2026",
+        "title": "Autoconsommation collective en copropriété : ce qui change avec le décret du 26 juin 2026",
+        "focus": "autoconsommation collective copropriété"
+    },
+    {
+        "slug": "panneaux-solaires-paris-abf-declaration-prealable",
+        "title": "Panneaux solaires à Paris et en zone ABF : autorisations, délais et pièges à éviter",
+        "focus": "panneaux solaires Paris"
+    },
+    {
+        "slug": "fonctionnement-solaire-photovoltaique",
+        "title": "Fonctionnement solaire photovoltaïque : de la cellule au tableau électrique",
+        "focus": "fonctionnement solaire photovoltaïque"
+    }
+]
