@@ -371,7 +371,7 @@
     },
     {
         "slug": "tarif-achat-edf-oa-2026",
-        "title": "Tarif d'achat EDF OA 2026 : le nouveau tarif unique de 1,1 c€\/kWh expliqué",
+        "title": "Tarif d'achat EDF OA 2026 : le nouveau tarif unique de 1,1 c€/kWh expliqué",
         "focus": "Tarif d'achat EDF OA 2026"
     },
     {
@@ -536,7 +536,7 @@
     },
     {
         "slug": "production-panneau-solaire-region-france",
-        "title": "Production solaire en kWh\/kWc\/an par région française : carte 2026",
+        "title": "Production solaire en kWh/kWc/an par région française : carte 2026",
         "focus": "production solaire par région"
     },
     {
@@ -568,5 +568,65 @@
         "slug": "fonctionnement-solaire-photovoltaique",
         "title": "Fonctionnement solaire photovoltaïque : de la cellule au tableau électrique",
         "focus": "fonctionnement solaire photovoltaïque"
+    },
+    {
+        "slug": "questions-poser-installateur-photovoltaique",
+        "title": "20 questions à poser à votre installateur photovoltaïque avant de signer",
+        "focus": "questions installateur photovoltaïque"
+    },
+    {
+        "slug": "couts-caches-installation-solaire",
+        "title": "Les coûts cachés d'une installation solaire : le budget complet, poste par poste",
+        "focus": "coûts cachés installation solaire"
+    },
+    {
+        "slug": "comprendre-devis-photovoltaique",
+        "title": "Devis photovoltaïque : comprendre chaque ligne et comparer plusieurs offres",
+        "focus": "devis photovoltaïque"
+    },
+    {
+        "slug": "contrat-installation-solaire-verifier",
+        "title": "Contrat d'installation solaire : les points à vérifier avant de signer",
+        "focus": "contrat installation solaire"
+    },
+    {
+        "slug": "toiture-adaptee-panneaux-solaires",
+        "title": "Ma toiture est-elle adaptée aux panneaux solaires ? Orientation, inclinaison, ombrage",
+        "focus": "toiture adaptée panneaux solaires"
+    },
+    {
+        "slug": "panneaux-solaires-temps-nuageux",
+        "title": "Panneaux solaires par temps nuageux : quelle production réelle ?",
+        "focus": "panneaux solaires temps nuageux"
+    },
+    {
+        "slug": "panneaux-solaires-grele-tempete-canicule",
+        "title": "Grêle, tempête, canicule, neige : ce que supportent vraiment les panneaux solaires",
+        "focus": "panneaux solaires grêle"
+    },
+    {
+        "slug": "etapes-installation-photovoltaique",
+        "title": "Installation photovoltaïque : les étapes, de la visite technique à la mise en service",
+        "focus": "étapes installation photovoltaïque"
+    },
+    {
+        "slug": "panneaux-solaires-location-bailleur-locataire",
+        "title": "Panneaux solaires et location : ce que peuvent faire bailleur et locataire",
+        "focus": "panneaux solaires location"
+    },
+    {
+        "slug": "monocristallin-vs-polycristallin",
+        "title": "Monocristallin, polycristallin, TOPCon : comprendre les types de panneaux solaires",
+        "focus": "monocristallin polycristallin"
+    },
+    {
+        "slug": "panneaux-solaires-sans-apport",
+        "title": "Panneaux solaires « sans apport » ou « à 1 € » : offre sérieuse ou piège ?",
+        "focus": "panneaux solaires sans apport"
+    },
+    {
+        "slug": "idees-recues-panneaux-solaires",
+        "title": "10 idées reçues sur les panneaux solaires passées au crible",
+        "focus": "idées reçues panneaux solaires"
     }
 ]
