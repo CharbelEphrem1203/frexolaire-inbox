@@ -919,4 +919,4 @@ body.page-id-14977 .ast-container{max-width:100%;width:100%;padding-left:0;paddi
 /* pont-css : test E2E 22/08/2026 */
 
 /* 06/09/2026 : sur 390 px le mot "autoconsommation" du h1 se coupait en deux lignes (38,4 px) */
-@media(max-width:420px){.fxr .hero h1{font-size:2.1rem}}
+@media(max-width:420px){html body.page-id-14977 .fxr .hero h1,html body .fxr .hero h1{font-size:2.1rem}}
