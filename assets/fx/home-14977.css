@@ -931,6 +931,13 @@ body.page-id-14977 .ast-container{max-width:100%;width:100%;padding-left:0;paddi
 .fxr .logos li{display:flex;align-items:center}
 .fxr .logos img{height:30px;width:auto;max-width:130px;filter:grayscale(1);opacity:.75;transition:filter .3s,opacity .3s}
 .fxr .logos li.rge img{height:64px;max-width:160px;filter:none;opacity:1}
+/* 07/09/2026 : une regle globale img{height:auto!important} annulait les hauteurs ci-dessus (logos rendus a leur taille naturelle) : bornes par max-height/max-width avec !important */
+.fxr .logos ul li img{height:auto!important;max-height:30px!important;width:auto!important;max-width:130px!important;min-height:0!important;object-fit:contain}
+.fxr .logos ul li.rge img{max-height:64px!important;max-width:160px!important}
+.fxr .logos ul li img[src*="fronius"]{max-height:44px!important}
 .fxr .logos li:hover img{filter:none;opacity:1}
 @media(max-width:820px){.fxr .trust-grid{grid-template-columns:minmax(0,1fr);gap:24px}}
-@media(max-width:560px){.fxr .logos ul{gap:14px 20px}.fxr .logos img{height:24px;max-width:100px}.fxr .logos li.rge img{height:54px}}
+@media(max-width:560px){.fxr .logos ul{gap:14px 20px}.fxr .logos img{height:24px;max-width:100px}.fxr .logos li.rge img{height:54px}
+.fxr .logos ul li img{max-height:24px!important;max-width:100px!important}
+.fxr .logos ul li.rge img{max-height:54px!important}
+.fxr .logos ul li img[src*="fronius"]{max-height:34px!important}}
