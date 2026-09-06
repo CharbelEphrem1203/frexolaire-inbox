@@ -78,7 +78,7 @@
 .fxr .step{position:relative;background:var(--mist);border-radius:16px;padding:58px 20px 24px;transition:transform .3s,box-shadow .3s}
 .fxr .step:hover{transform:translateY(-6px);box-shadow:0 18px 36px rgba(2,80,72,.14)}
 .fxr .step i{position:absolute;top:6px;right:14px;font-style:normal;font-size:3.4rem;font-weight:800;color:transparent;-webkit-text-stroke:1.5px rgba(2,80,72,.22);line-height:1}
-.fxr .step h4{margin:0 0 6px;font-size:1rem;font-weight:800;color:var(--g9)}
+.fxr .step h3,.fxr .step h4{margin:0 0 6px;font-size:1rem;font-weight:800;color:var(--g9)}
 .fxr .step p{margin:0;font-size:.86rem}
 /* SHOP */
 .fxr .shop{background:var(--mist)}
@@ -140,7 +140,7 @@ body.page-id-14977 .ast-container{max-width:100%;width:100%;padding-left:0;paddi
 #content .fxr .aides h2.sec,#content .fxr .zones h2.sec,#content .fxr .cta h2{color:#fff}
 #content .fxr .aides .gcard h3{color:#fff}
 #content .fxr .tabpane h3,#content .fxr .kit h3,#content .fxr .wcard h3{color:var(--g9)}
-#content .fxr .step h4{color:var(--g9)}
+#content .fxr .step h3,#content .fxr .step h4{color:var(--g9)}
 
 /* ===== FX-UTIL-2026 : barre services + contact ===== */
 .fxr .util{background:var(--g9);border-top:1px solid rgba(255,255,255,.08);padding:15px 0}
