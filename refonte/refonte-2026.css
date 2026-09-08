@@ -1,0 +1,402 @@
+/* Refonte FreXolaire 2026 — porte par .fxn, pose par le gabarit de refonte.
+   Aucune regle ne peut atteindre une page qui n a pas choisi ce gabarit. */
+
+.fxn {
+  --teal: #025048;
+  --abysse: #01332E;
+  --or: #D4AF37;
+  --or-clair: #E8C766;
+  --ardoise: #26313A;
+  --brume: #F4F7F5;
+  --zinc: #FBFBF9;
+
+  --serif: "Bodoni Moda", Didot, "Times New Roman", serif;
+  --sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+
+  --t0: clamp(1rem, .96rem + .2vw, 1.0625rem);
+  --t1: clamp(1.15rem, 1.05rem + .45vw, 1.4rem);
+  --t2: clamp(1.5rem, 1.25rem + 1vw, 2.1rem);
+  --t3: clamp(1.9rem, 1.4rem + 2vw, 3rem);
+  --t4: clamp(2.4rem, 1.5rem + 4vw, 5rem);
+
+  --lire: 68ch;
+  --large: 1180px;
+
+  /* position du pointeur, mise a jour en rAF : c est la source de lumiere */
+  --lx: 50%;
+  --ly: 30%;
+  /* progression de l arc solaire, 0 -> 1, pilotee par le defilement */
+  --sun: 0;
+
+  background: var(--zinc);
+  color: var(--ardoise);
+  font-family: var(--sans);
+  font-size: var(--t0);
+  line-height: 1.62;
+  overflow-x: hidden;
+}
+
+.fxn *,
+.fxn *::before,
+.fxn *::after { box-sizing: border-box; }
+
+.fxn-grid {
+  max-width: var(--large);
+  margin-inline: auto;
+  padding-inline: clamp(1.1rem, 4vw, 3rem);
+}
+
+.fxn-grid--lire { max-width: calc(var(--lire) + 6rem); }
+
+/* ---------- Typographie ---------- */
+
+.fxn-titre,
+.fxn-h2,
+.fxn h3 {
+  font-family: var(--serif);
+  font-optical-sizing: auto;
+  text-wrap: balance;
+  margin: 0 0 .6em;
+}
+
+.fxn-titre {
+  font-size: var(--t4);
+  font-weight: 700;
+  line-height: 1.02;
+  letter-spacing: -.022em;
+  color: #fff;
+}
+
+.fxn-h2 {
+  font-size: var(--t3);
+  font-weight: 700;
+  line-height: 1.12;
+  letter-spacing: -.014em;
+  color: var(--abysse);
+}
+
+.fxn h3 {
+  font-size: var(--t2);
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -.008em;
+  color: var(--abysse);
+}
+
+.fxn p { margin: 0 0 1.1em; max-width: var(--lire); }
+
+/* Le seul libelle en capitales de la page : il classe, il ne decore pas. */
+.fxn-eyebrow {
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--or-clair);
+  margin: 0 0 1.4rem;
+}
+
+.fxn-chapo {
+  font-size: var(--t1);
+  line-height: 1.45;
+  color: #cfe0da;
+  max-width: 46ch;
+}
+
+.fxn-note {
+  font-size: .86rem;
+  color: #5c6b76;
+  line-height: 1.5;
+}
+
+.fxn-ecart .fxn-note { color: #9fb5ad; }
+
+/* ---------- Hero ---------- */
+
+.fxn-hero {
+  position: relative;
+  background: var(--abysse);
+  padding-block: clamp(3.5rem, 9vw, 7.5rem);
+  overflow: hidden;
+}
+
+/* L or n apparait QUE la ou la lumiere tombe : une seule source, suivant
+   le pointeur, et un arc lie au defilement. Rien d autre n est dore. */
+.fxn-hero::before {
+  content: "";
+  position: absolute;
+  inset: -20%;
+  background:
+    radial-gradient(38rem 38rem at var(--lx) var(--ly),
+      rgba(212, 175, 55, .20) 0%,
+      rgba(212, 175, 55, .07) 35%,
+      transparent 68%);
+  pointer-events: none;
+  transition: opacity .4s ease;
+}
+
+/* L arc du soleil : une seule course, pas de particules. */
+.fxn-hero::after {
+  content: "";
+  position: absolute;
+  top: calc(6% + (1 - var(--sun)) * 4%);
+  left: calc(8% + var(--sun) * 82%);
+  width: clamp(4rem, 9vw, 8rem);
+  height: clamp(4rem, 9vw, 8rem);
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(232, 199, 102, .55) 0%, rgba(212, 175, 55, .12) 45%, transparent 70%);
+  pointer-events: none;
+  filter: blur(2px);
+}
+
+.fxn-hero .fxn-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: clamp(2rem, 5vw, 4rem);
+  grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+  align-items: center;
+}
+
+.fxn-actions { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: 2rem; }
+
+/* ---------- Le panneau, dessine en CSS ---------- */
+
+.fxn-panneau { perspective: 1200px; }
+
+.fxn-panneau__surface {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  border-radius: 3px;
+  background: linear-gradient(158deg, #0d1b1f 0%, #16282c 55%, #0a1518 100%);
+  border: 3px solid #11202355;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, .38);
+  transform: rotateX(calc(var(--tx, 0) * 1deg)) rotateY(calc(var(--ty, 0) * 1deg));
+  transition: transform .25s ease-out;
+  overflow: hidden;
+}
+
+/* Grille de cellules + busbars : la texture d un module, sans image. */
+.fxn-panneau__cellules {
+  position: absolute;
+  inset: 5%;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, .07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, .07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, .12) 1px, transparent 1px);
+  background-size: 100% 16.6%, 16.6% 100%, 8.3% 100%;
+}
+
+/* Le voile antireflet : son angle suit la meme lumiere que le hero. */
+.fxn-panneau__voile {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    calc(115deg - var(--sun) * 50deg),
+    rgba(232, 199, 102, .32) 0%,
+    rgba(232, 199, 102, .06) 26%,
+    transparent 52%);
+  mix-blend-mode: screen;
+}
+
+/* ---------- L ecart : le seul moment fort ---------- */
+
+.fxn-ecart {
+  background: var(--teal);
+  color: #fff;
+  padding-block: clamp(3rem, 8vw, 6rem);
+}
+
+.fxn-ecart .fxn-grid {
+  display: grid;
+  gap: clamp(1.5rem, 4vw, 3.5rem);
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+}
+
+.fxn-ecart__nombre {
+  font-family: var(--serif);
+  font-size: clamp(5rem, 15vw, 12rem);
+  font-weight: 700;
+  line-height: .82;
+  color: var(--or);
+  margin: 0;
+  font-variant-numeric: lining-nums tabular-nums;
+  display: flex;
+  align-items: baseline;
+}
+
+.fxn-ecart__x { font-size: .42em; margin-left: .06em; color: var(--or-clair); }
+.fxn-ecart .fxn-h2 { color: #fff; }
+.fxn-ecart p { color: #dcece6; }
+.fxn-ecart strong { color: var(--or-clair); font-weight: 700; }
+
+/* ---------- Metiers, en escalier ---------- */
+
+.fxn-metiers { padding-block: clamp(3.5rem, 9vw, 7rem); background: var(--zinc); }
+.fxn-h2--large { max-width: 20ch; margin-bottom: 2.5rem; }
+
+.fxn-escalier {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: clamp(1.5rem, 3vw, 2.4rem);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr));
+  align-items: start;
+}
+
+/* L escalier suit la course du soleil de la section precedente :
+   la disposition porte une information, elle ne decore pas. */
+.fxn-metier--haut { transform: translateY(-1.6rem); }
+.fxn-metier--bas { transform: translateY(1.6rem); }
+
+.fxn-metier {
+  padding-top: 1.4rem;
+  border-top: 2px solid var(--teal);
+}
+
+.fxn-metier p { font-size: .97rem; color: #47555c; }
+
+.fxn-lien {
+  font-weight: 600;
+  color: var(--teal);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(2, 80, 72, .35);
+  padding-bottom: 1px;
+}
+
+.fxn-lien:hover { border-bottom-color: var(--teal); }
+
+/* ---------- Chiffres ---------- */
+
+.fxn-chiffres { background: var(--brume); padding-block: clamp(3.5rem, 9vw, 7rem); }
+
+.fxn-stats {
+  display: grid;
+  gap: clamp(1.2rem, 3vw, 2.2rem);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr));
+  margin: 2rem 0 1.6rem;
+}
+
+.fxn-stat { border-top: 1px solid #d3ded8; padding-top: 1rem; }
+.fxn-stat dt { font-size: .84rem; color: #5c6b76; margin-bottom: .35rem; }
+
+.fxn-stat dd {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(1.9rem, 1.4rem + 1.6vw, 2.9rem);
+  font-weight: 700;
+  color: var(--teal);
+  line-height: 1.05;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+.fxn-unite {
+  display: block;
+  font-family: var(--sans);
+  font-size: .8rem;
+  font-weight: 500;
+  color: #5c6b76;
+  margin-top: .3rem;
+}
+
+/* ---------- Franchise ---------- */
+
+.fxn-franchise { background: var(--zinc); padding-block: clamp(3rem, 7vw, 5.5rem); }
+.fxn-franchise p { font-size: var(--t1); line-height: 1.5; color: #3a474e; }
+
+/* ---------- Etapes : vraie sequence ---------- */
+
+.fxn-etapes-sec { background: var(--brume); padding-block: clamp(3.5rem, 9vw, 7rem); }
+.fxn-etapes { counter-reset: fxn; list-style: none; margin: 0 0 2rem; padding: 0; }
+
+.fxn-etapes > li {
+  counter-increment: fxn;
+  display: grid;
+  grid-template-columns: 2.8rem minmax(0, 1fr);
+  gap: 1rem;
+  padding-block: 1.4rem;
+  border-top: 1px solid #d3ded8;
+}
+
+.fxn-etapes > li::before {
+  content: counter(fxn, decimal-leading-zero);
+  font-family: var(--serif);
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--or);
+  line-height: 1.4;
+}
+
+.fxn-etapes h3 { font-size: 1.12rem; margin-bottom: .25rem; }
+.fxn-etapes p { margin: 0; font-size: .96rem; color: #47555c; }
+
+/* ---------- Boutons ---------- */
+
+.fxn-btn {
+  display: inline-flex;
+  align-items: center;
+  min-height: 46px;
+  padding: .75rem 1.5rem;
+  font-family: var(--sans);
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 3px;
+  border: 1.5px solid transparent;
+  text-decoration: none;
+  transition: background-color .18s ease, color .18s ease, border-color .18s ease;
+}
+
+.fxn-btn--plein { background: var(--or); color: var(--abysse); }
+.fxn-btn--plein:hover { background: var(--or-clair); }
+.fxn-btn--ligne { border-color: rgba(232, 199, 102, .6); color: var(--or-clair); }
+.fxn-btn--ligne:hover { background: rgba(232, 199, 102, .12); border-color: var(--or-clair); }
+
+.fxn-etapes-sec .fxn-btn--plein { background: var(--teal); color: #fff; }
+.fxn-etapes-sec .fxn-btn--plein:hover { background: var(--abysse); }
+
+.fxn a:focus-visible,
+.fxn .fxn-btn:focus-visible {
+  outline: 3px solid var(--or);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* ---------- Revelation du titre, une seule fois, au chargement ---------- */
+
+.fxn-mot {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(.5em);
+  animation: fxn-mot .62s cubic-bezier(.22, .68, .36, 1) forwards;
+  animation-delay: calc(var(--i) * 70ms);
+}
+
+@keyframes fxn-mot { to { opacity: 1; transform: none; } }
+
+/* ---------- Mobile : rien ne s epingle, rien ne suit le pointeur ---------- */
+
+@media (max-width: 900px) {
+  .fxn-hero .fxn-grid { grid-template-columns: 1fr; }
+  .fxn-ecart .fxn-grid { grid-template-columns: 1fr; }
+  .fxn-metier--haut,
+  .fxn-metier--bas { transform: none; }
+}
+
+@media (hover: none), (pointer: coarse) {
+  .fxn-hero::before { --lx: 30%; --ly: 18%; }
+}
+
+/* ---------- Mouvement reduit : etat statique, pas une version lente ---------- */
+
+@media (prefers-reduced-motion: reduce) {
+  .fxn *,
+  .fxn *::before,
+  .fxn *::after {
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+  }
+  .fxn-mot { opacity: 1; transform: none; animation: none; }
+  .fxn-panneau__surface { transform: none; }
+}
