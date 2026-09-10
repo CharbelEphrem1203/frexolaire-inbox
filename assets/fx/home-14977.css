@@ -633,12 +633,12 @@ body.page-id-14977 .ast-container{max-width:100%;width:100%;padding-left:0;paddi
 
 /* ===== Espacement uniforme entre les sections =====
    Les retouches successives avaient laisse des valeurs disparates. ===== */
-.fxr section.pad{padding-top:76px;padding-bottom:76px}
+.fxr section.pad{padding-top:56px;padding-bottom:56px}
 .fxr .hero{padding-top:52px;padding-bottom:64px}
 .fxr section.pad > .wrap > .eyebrow{display:inline-block;margin-bottom:10px}
 .fxr section.pad > .wrap > h2.sec{margin-top:0;margin-bottom:14px}
 @media(max-width:820px){
-  .fxr section.pad{padding-top:52px;padding-bottom:52px}
+  .fxr section.pad{padding-top:40px;padding-bottom:40px}
   .fxr .hero{padding-top:34px;padding-bottom:44px}}
 
 /* ===== Hero : la photo occupe exactement la hauteur du bloc de texte =====
