@@ -941,3 +941,7 @@ body.page-id-14977 .ast-container{max-width:100%;width:100%;padding-left:0;paddi
 .fxr .logos ul li img{max-height:24px!important;max-width:100px!important}
 .fxr .logos ul li.rge img{max-height:54px!important}
 .fxr .logos ul li img[src*="fronius"]{max-height:34px!important}}
+
+/* 06/10/2026 : TrustBox carrousel retiree (widget payant, plan Trustpilot gratuit) -> simple lien texte vers la fiche */
+.fxr .tp-box{min-height:0;display:flex;align-items:center;justify-content:center;padding:28px 18px}
+.fxr .tp-box .tp-link{margin:0;font-size:1.05rem;text-align:center}
